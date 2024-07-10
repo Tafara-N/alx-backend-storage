@@ -327,12 +327,13 @@ GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 File: `4-store.sql`
 
-5. Email validation to sent
-mandatory
-Write a SQL script that creates a trigger that resets the attribute valid_email only when the email has been changed.
+### 5. Email validation to sent
 
-Context: Nothing related to MySQL, but perfect for user email validation - distribute the logic to the database itself!
+Write a SQL script that creates a trigger that resets the attribute `valid_email` only when the `email` has been changed.
 
+**Context:** *Nothing related to MySQL, but perfect for user email validation - distribute the logic to the database itself!*
+
+```bash
 bob@dylan:~$ cat 5-init.sql
 -- Initial
 DROP TABLE IF EXISTS users;
@@ -393,11 +394,12 @@ id  email   name    valid_email
 2   sylvie+new@dylan.com    Sylvie  0
 3   jeanne@dylan.com    Jannis  1
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
-File: 5-valid_email.sql
+File: `5-valid_email.sql`
 
 6. Add bonus
 mandatory
