@@ -135,7 +135,7 @@ id  email   name
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 - File: `0-uniq_users.sql`
@@ -180,7 +180,7 @@ id  email   name    country
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 - File: `1-country_users.sql`
@@ -216,7 +216,7 @@ Italy   7178
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 - File: `2-fans.sql`
@@ -249,7 +249,7 @@ Hanoi Rocks 0
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 - File: `3-glam_rock.sql`
@@ -322,7 +322,7 @@ pear    2
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 - File: `4-store.sql`
@@ -396,7 +396,7 @@ id  email   name    valid_email
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 - File: `5-valid_email.sql`
@@ -522,7 +522,7 @@ user_id project_id  score
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 - File: `6-bonus.sql`
@@ -624,7 +624,7 @@ id  name    average_score
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 - File: `7-average_score.sql`
@@ -681,7 +681,7 @@ mysql>
 mysql> exit
 bye
 bob@dylan:~$
-Repo:
+**Repo:**
 
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
@@ -738,7 +738,7 @@ bye
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 - File: `9-index_name_score.sql`
@@ -800,7 +800,7 @@ SafeDiv(a, b)
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 - File: `10-div.sql`
@@ -908,7 +908,7 @@ students    CREATE TABLE `students` (\n  `name` varchar(255) NOT NULL,\n  `score
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 - File: `11-need_meeting.sql`
@@ -1016,7 +1016,7 @@ id  name    average_score
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 - File: `100-average_weighted_score.sql`
@@ -1123,7 +1123,7 @@ id  name    average_score
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 - File: `101-average_weighted_score.sql`
