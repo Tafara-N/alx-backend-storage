@@ -136,7 +136,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-storage
+- GitHub repository: `alx-backend-storage`
 - Directory: `0x00-MySQL_Advanced`
 - File: `0-uniq_users.sql`
 
@@ -181,7 +181,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-storage
+- GitHub repository: `alx-backend-storage`
 - Directory: `0x00-MySQL_Advanced`
 - File: `1-country_users.sql`
 
@@ -217,7 +217,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-storage
+- GitHub repository: `alx-backend-storage`
 - Directory: `0x00-MySQL_Advanced`
 - File: `2-fans.sql`
 
@@ -250,7 +250,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-storage
+- GitHub repository: `alx-backend-storage`
 - Directory: `0x00-MySQL_Advanced`
 - File: `3-glam_rock.sql`
 
@@ -323,7 +323,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-storage
+- GitHub repository: `alx-backend-storage`
 - Directory: `0x00-MySQL_Advanced`
 - File: `4-store.sql`
 
@@ -397,7 +397,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-storage
+- GitHub repository: `alx-backend-storage`
 - Directory: `0x00-MySQL_Advanced`
 - File: `5-valid_email.sql`
 
@@ -523,7 +523,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-storage
+- GitHub repository: `alx-backend-storage`
 - Directory: `0x00-MySQL_Advanced`
 - File: `6-bonus.sql`
 
@@ -625,7 +625,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-storage
+- GitHub repository: `alx-backend-storage`
 - Directory: `0x00-MySQL_Advanced`
 - File: `7-average_score.sql`
 
@@ -683,7 +683,7 @@ bye
 bob@dylan:~$
 **Repo:**
 
-GitHub repository: alx-backend-storage
+- GitHub repository: `alx-backend-storage`
 - Directory: `0x00-MySQL_Advanced`
 - File: 8-index_my_names.sql
 
@@ -739,7 +739,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-storage
+- GitHub repository: `alx-backend-storage`
 - Directory: `0x00-MySQL_Advanced`
 - File: `9-index_name_score.sql`
 
@@ -801,7 +801,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-storage
+- GitHub repository: `alx-backend-storage`
 - Directory: `0x00-MySQL_Advanced`
 - File: `10-div.sql`
 
@@ -909,7 +909,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-storage
+- GitHub repository: `alx-backend-storage`
 - Directory: `0x00-MySQL_Advanced`
 - File: `11-need_meeting.sql`
 
@@ -1017,7 +1017,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-storage
+- GitHub repository: `alx-backend-storage`
 - Directory: `0x00-MySQL_Advanced`
 - File: `100-average_weighted_score.sql`
 
@@ -1124,6 +1124,6 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-storage
+- GitHub repository: `alx-backend-storage`
 - Directory: `0x00-MySQL_Advanced`
 - File: `101-average_weighted_score.sql`
