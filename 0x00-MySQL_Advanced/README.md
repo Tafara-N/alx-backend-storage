@@ -138,7 +138,7 @@ bob@dylan:~$
 Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
-File: `0-uniq_users.sql`
+- File: `0-uniq_users.sql`
 
 ### 1. In and not out
 
@@ -183,7 +183,7 @@ bob@dylan:~$
 Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
-File: `1-country_users.sql`
+- File: `1-country_users.sql`
 
 ### 2. Best band ever!
 
@@ -219,7 +219,7 @@ bob@dylan:~$
 Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
-File: `2-fans.sql`
+- File: `2-fans.sql`
 
 ## 3. Old school band
 
@@ -252,7 +252,7 @@ bob@dylan:~$
 Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
-File: `3-glam_rock.sql`
+- File: `3-glam_rock.sql`
 
 ### 4. Buy buy buy
 
@@ -325,7 +325,7 @@ bob@dylan:~$
 Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
-File: `4-store.sql`
+- File: `4-store.sql`
 
 ### 5. Email validation to sent
 
@@ -399,7 +399,7 @@ bob@dylan:~$
 Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
-File: `5-valid_email.sql`
+- File: `5-valid_email.sql`
 
 ### 6. Add bonus
 
@@ -525,7 +525,7 @@ bob@dylan:~$
 Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
-File: `6-bonus.sql`
+- File: `6-bonus.sql`
 
 ### 7. Average score
 
@@ -627,7 +627,7 @@ bob@dylan:~$
 Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
-File: `7-average_score.sql`
+- File: `7-average_score.sql`
 
 ### 8. Optimize simple search
 
@@ -685,7 +685,7 @@ Repo:
 
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
-File: 8-index_my_names.sql
+- File: 8-index_my_names.sql
 
 9. Optimize search and score
 mandatory
@@ -741,7 +741,7 @@ bob@dylan:~$
 Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
-File: `9-index_name_score.sql`
+- File: `9-index_name_score.sql`
 
 ### 10. Safe divide
 
@@ -803,7 +803,7 @@ bob@dylan:~$
 Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
-File: `10-div.sql`
+- File: `10-div.sql`
 
 ### 11. No table for a meeting
 
@@ -911,7 +911,7 @@ bob@dylan:~$
 Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
-File: `11-need_meeting.sql`
+- File: `11-need_meeting.sql`
 
 ### 12. Average weighted score
 
@@ -1019,7 +1019,7 @@ bob@dylan:~$
 Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
-File: `100-average_weighted_score.sql`
+- File: `100-average_weighted_score.sql`
 
 ### 13. Average weighted score for all!
 
@@ -1126,4 +1126,4 @@ bob@dylan:~$
 Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
-File: `101-average_weighted_score.sql`
+- File: `101-average_weighted_score.sql`
