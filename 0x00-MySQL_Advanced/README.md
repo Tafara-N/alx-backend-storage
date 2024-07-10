@@ -629,16 +629,18 @@ GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 File: `7-average_score.sql`
 
-8. Optimize simple search
-mandatory
-Write a SQL script that creates an index idx_name_first on the table names and the first letter of name.
+### 8. Optimize simple search
 
-Requirements:
+Write a SQL script that creates an index `idx_name_first` on the table names and the first letter of `name`.
 
-Import this table dump: names.sql.zip
-Only the first letter of name must be indexed
-Context: Index is not the solution for any performance issue, but well used, it’s really powerful!
+**Requirements:**
 
+- Import this table dump: [names.sql.zip](https://intranet.alxswe.com/rltoken/BluyCCIIfw0NqcjqUiUdEw)
+- Only the first letter of name must be indexed
+
+**Context:** *Index is not the solution for any performance issue, but well used, it’s really powerful!*
+
+```bash
 bob@dylan:~$ cat names.sql | mysql -uroot -p holberton
 Enter password:
 bob@dylan:~$
@@ -734,11 +736,12 @@ mysql>
 mysql> exit
 bye
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
-File: 9-index_name_score.sql
+File: `9-index_name_score.sql`
 
 10. Safe divide
 mandatory
