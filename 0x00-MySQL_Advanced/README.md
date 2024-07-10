@@ -50,11 +50,16 @@ $ cat my_script.sql
 -- because Batch 3 is the best!
 SELECT id, name FROM students WHERE batch_id = 3 ORDER BY created_at DESC LIMIT 3;
 $
-Use “container-on-demand” to run MySQL
-Ask for container Ubuntu 18.04 - Python 3.7
-Connect via SSH
-Or via the WebTerminal
-In the container, you should start MySQL before playing with it:
+```
+
+**Use “container-on-demand” to run MySQL**
+
+- Ask for container `Ubuntu 18.04 - Python 3.7`
+- Connect via SSH
+- Or via the WebTerminal
+- In the container, you should start MySQL before playing with it:
+
+```bash
 $ service mysql start
  * MySQL Community Server 5.7.30 is started
 $
@@ -66,9 +71,12 @@ mysql
 performance_schema
 sys
 $
-In the container, credentials are root/root
+```
 
-How to import a SQL dump
+**In the container, credentials are `root/root`**
+
+## How to import a SQL dump
+
 $ echo "CREATE DATABASE hbtn_0d_tvshows;" | mysql -uroot -p
 Enter password:
 $ curl "https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/hbtn_0d_tvshows.sql" -s | mysql -uroot -p hbtn_0d_tvshows
