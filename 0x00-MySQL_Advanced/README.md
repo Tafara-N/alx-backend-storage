@@ -743,17 +743,19 @@ GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 File: `9-index_name_score.sql`
 
-10. Safe divide
-mandatory
-Write a SQL script that creates a function SafeDiv that divides (and returns) the first by the second number or returns 0 if the second number is equal to 0.
+### 10. Safe divide
 
-Requirements:
+Write a SQL script that creates a function `SafeDiv` that divides (and returns) the first by the second number or returns 0 if the second number is equal to 0.
 
-You must create a function
-The function SafeDiv takes 2 arguments:
-a, INT
-b, INT
-And returns a / b or 0 if b == 0
+**Requirements:**
+
+- You must create a function
+- The function `SafeDiv` takes 2 arguments:
+    - `a`, INT
+    - `b`, INT
+- And returns `a / b` or 0 if `b == 0`
+
+```bash
 bob@dylan:~$ cat 10-init.sql
 -- Initial
 DROP TABLE IF EXISTS numbers;
@@ -796,21 +798,24 @@ SafeDiv(a, b)
 0
 0.75
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
-File: 10-div.sql
+File: `10-div.sql`
 
-11. No table for a meeting
-mandatory
-Write a SQL script that creates a view need_meeting that lists all students that have a score under 80 (strict) and no last_meeting or more than 1 month.
+### 11. No table for a meeting
 
-Requirements:
+Write a SQL script that creates a view `need_meeting` that lists all students that have a score under 80 (strict) and no `last_meeting` or more than 1 month.
 
-The view need_meeting should return all students name when:
-They score are under (strict) to 80
-AND no last_meeting date OR more than a month
+**Requirements:**
+
+- The view `need_meeting` should return all students name when:
+    - They score are under (strict) to 80
+    - **AND** no `last_meeting` date **OR** more than a month
+
+```bash
 bob@dylan:~$ cat 11-init.sql
 -- Initial
 DROP TABLE IF EXISTS students;
@@ -901,23 +906,27 @@ XXXXXX<yes, here it will display the View SQL statement :-) >XXXXXX
 Table   Create Table
 students    CREATE TABLE `students` (\n  `name` varchar(255) NOT NULL,\n  `score` int(11) DEFAULT '0',\n  `last_meeting` date DEFAULT NULL\n) ENGINE=InnoDB DEFAULT CHARSET=latin1
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
-File: 11-need_meeting.sql
+File: `11-need_meeting.sql`
 
-12. Average weighted score
-#advanced
-Write a SQL script that creates a stored procedure ComputeAverageWeightedScoreForUser that computes and store the average weighted score for a student.
+### 12. Average weighted score
 
-Requirements:
+Write a SQL script that creates a stored procedure `ComputeAverageWeightedScoreForUser` that computes and store the average weighted score for a student.
 
-Procedure ComputeAverageScoreForUser is taking 1 input:
-user_id, a users.id value (you can assume user_id is linked to an existing users)
-Tips:
+**Requirements:**
 
-Calculate-Weighted-Average
+- Procedure `ComputeAverageScoreForUser` is taking 1 input:
+    - `user_id`, a `users.id` value (you can assume `user_id` is linked to an existing `users`)
+
+**Tips:**
+
+- [Calculate-Weighted-Average](https://intranet.alxswe.com/rltoken/QHx92mlF43zF6GTEil-Cyw)
+
+```bash
 bob@dylan:~$ cat 100-init.sql
 -- Initial
 DROP TABLE IF EXISTS corrections;
@@ -1005,11 +1014,12 @@ id  name    average_score
 1   Bob 0
 2   Jeanne  79
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
-File: 100-average_weighted_score.sql
+File: `100-average_weighted_score.sql`
 
 13. Average weighted score for all!
 #advanced
