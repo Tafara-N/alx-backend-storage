@@ -1021,16 +1021,19 @@ GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 File: `100-average_weighted_score.sql`
 
-13. Average weighted score for all!
-#advanced
-Write a SQL script that creates a stored procedure ComputeAverageWeightedScoreForUsers that computes and store the average weighted score for all students.
+### 13. Average weighted score for all!
 
-Requirements:
+Write a SQL script that creates a stored procedure `ComputeAverageWeightedScoreForUsers` that computes and store the average weighted score for all students.
 
-Procedure ComputeAverageWeightedScoreForUsers is not taking any input.
-Tips:
+**Requirements:**
 
-Calculate-Weighted-Average
+- Procedure `ComputeAverageWeightedScoreForUsers` is not taking any input.
+
+**Tips:**
+
+- [Calculate-Weighted-Average](https://intranet.alxswe.com/rltoken/QHx92mlF43zF6GTEil-Cyw)
+
+```bash
 bob@dylan:~$ cat 101-init.sql
 -- Initial
 DROP TABLE IF EXISTS corrections;
@@ -1118,8 +1121,9 @@ id  name    average_score
 1   Bob 90.6667
 2   Jeanne  79
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 File: `101-average_weighted_score.sql`
