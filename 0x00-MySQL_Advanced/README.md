@@ -527,14 +527,16 @@ GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 File: `6-bonus.sql`
 
-7. Average score
-mandatory
-Write a SQL script that creates a stored procedure ComputeAverageScoreForUser that computes and store the average score for a student. Note: An average score can be a decimal
+### 7. Average score
 
-Requirements:
+Write a SQL script that creates a stored procedure `ComputeAverageScoreForUser` that computes and store the average score for a student. Note: An average score can be a decimal
 
-Procedure ComputeAverageScoreForUser is taking 1 input:
-user_id, a users.id value (you can assume user_id is linked to an existing users)
+**Requirements:**
+
+- Procedure `ComputeAverageScoreForUser` is taking 1 input:
+    - `user_id`, a `users.id` value (you can assume `user_id` is linked to an existing `users`)
+
+```bash
 bob@dylan:~$ cat 7-init.sql
 -- Initial
 DROP TABLE IF EXISTS corrections;
@@ -620,11 +622,12 @@ id  name    average_score
 1   Bob 0
 2   Jeanne  82
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
-File: 7-average_score.sql
+File: `7-average_score.sql`
 
 8. Optimize simple search
 mandatory
