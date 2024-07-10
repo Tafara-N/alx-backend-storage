@@ -247,20 +247,22 @@ Hardcore Superstar  23
 Nasty Idols 0
 Hanoi Rocks 0
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
-File: 3-glam_rock.sql
+File: `3-glam_rock.sql`
 
-4. Buy buy buy
-mandatory
+### 4. Buy buy buy
+
 Write a SQL script that creates a trigger that decreases the quantity of an item after adding a new order.
 
-Quantity in the table items can be negative.
+Quantity in the table `items` can be negative.
 
-Context: Updating multiple tables for one action from your application can generate issue: network disconnection, crash, etc… to keep your data in a good shape, let MySQL do it for you!
+**Context:** *Updating multiple tables for one action from your application can generate issue: network disconnection, crash, etc… to keep your data in a good shape, let MySQL do it for you!*
 
+```bash
 bob@dylan:~$ cat 4-init.sql
 -- Initial
 DROP TABLE IF EXISTS items;
@@ -318,11 +320,12 @@ apple   1
 apple   3
 pear    2
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
-File: 4-store.sql
+File: `4-store.sql`
 
 5. Email validation to sent
 mandatory
