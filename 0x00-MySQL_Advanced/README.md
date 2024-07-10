@@ -7,17 +7,17 @@
 ## Resources
 
 **Read or watch:**
-- [MySQL cheatsheet
-- [MySQL Performance: How To Leverage MySQL Database Indexing
-- [Stored Procedure
-- [Triggers
-- [Views
-- [Functions and Operators
-- [Trigger Syntax and Examples
-- [CREATE TABLE Statement
-- [CREATE PROCEDURE and CREATE FUNCTION Statements
-- [CREATE INDEX Statement
-- [CREATE VIEW Statement
+- [MySQL cheatsheet]()
+- [MySQL Performance: How To Leverage MySQL Database Indexing]()
+- [Stored Procedure]()
+- [Triggers]()
+- [Views]()
+- [Functions and Operators]()
+- [Trigger Syntax and Examples]()
+- [CREATE TABLE Statement]()
+- [CREATE PROCEDURE and CREATE FUNCTION Statements]()
+- [CREATE INDEX Statement]()
+- [CREATE VIEW Statement]()
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/NEA0Fr7muHfukl5lziVAhg), **without the help of Google:**
