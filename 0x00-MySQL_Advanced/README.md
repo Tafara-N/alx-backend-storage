@@ -96,19 +96,22 @@ id  name
 $
 ```
 
-Tasks
-0. We are all unique!
-mandatory
-Write a SQL script that creates a table users following these requirements:
+## Tasks
 
-With these attributes:
-id, integer, never null, auto increment and primary key
-email, string (255 characters), never null and unique
-name, string (255 characters)
-If the table already exists, your script should not fail
-Your script can be executed on any database
-Context: Make an attribute unique directly in the table schema will enforced your business rules and avoid bugs in your application
+### 0. We are all unique!
 
+Write a SQL script that creates a table `users` following these requirements:
+
+- With these attributes:
+    - `id`, integer, never null, auto increment and primary key
+    - `email`, string (255 characters), never null and unique
+    - `name`, string (255 characters)
+- If the table already exists, your script should not fail
+- Your script can be executed on any database
+
+**Context:** *Make an attribute unique directly in the table schema will enforced your business rules and avoid bugs in your application*
+
+```bash
 bob@dylan:~$ echo "SELECT * FROM users;" | mysql -uroot -p holberton
 Enter password:
 ERROR 1146 (42S02) at line 1: Table 'holberton.users' doesn't exist
@@ -130,11 +133,12 @@ id  email   name
 1   bob@dylan.com   Bob
 2   sylvie@dylan.com    Sylvie
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
-File: 0-uniq_users.sql
+File: `0-uniq_users.sql`
 
 1. In and not out
 mandatory
