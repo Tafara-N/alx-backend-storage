@@ -401,18 +401,20 @@ GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 File: `5-valid_email.sql`
 
-6. Add bonus
-mandatory
-Write a SQL script that creates a stored procedure AddBonus that adds a new correction for a student.
+### 6. Add bonus
 
-Requirements:
+Write a SQL script that creates a stored procedure `AddBonus` that adds a new correction for a student.
 
-Procedure AddBonus is taking 3 inputs (in this order):
-user_id, a users.id value (you can assume user_id is linked to an existing users)
-project_name, a new or already exists projects - if no projects.name found in the table, you should create it
-score, the score value for the correction
-Context: Write code in SQL is a nice level up!
+**Requirements:**
 
+-  Procedure `AddBonus` is taking 3 inputs (in this order):
+    - `user_id`, a `users.id` value (you can assume `user_id` is linked to an existing `users`)
+    - `project_name`, a new or already exists `projects` - if no `projects.name` found in the table, you should create it
+    - `score`, the score value for the correction
+
+**Context:** *Write code in SQL is a nice level up!*
+
+```bash
 bob@dylan:~$ cat 6-init.sql
 -- Initial
 DROP TABLE IF EXISTS corrections;
@@ -518,11 +520,12 @@ user_id project_id  score
 1   3   10
 2   4   90
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
-File: 6-bonus.sql
+File: `6-bonus.sql`
 
 7. Average score
 mandatory
