@@ -178,23 +178,26 @@ id  email   name    country
 2   sylvie@dylan.com    Sylvie  CO
 3   john@dylan.com  John    US
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
-File: 1-country_users.sql
+File: `1-country_users.sql`
 
-2. Best band ever!
-mandatory
+### 2. Best band ever!
+
 Write a SQL script that ranks country origins of bands, ordered by the number of (non-unique) fans
 
-Requirements:
+**Requirements:**
 
-Import this table dump: metal_bands.sql.zip
-Column names must be: origin and nb_fans
-Your script can be executed on any database
-Context: Calculate/compute something is always power intensive… better to distribute the load!
+- Import this table dump: [metal_bands.sql.zip](https://intranet.alxswe.com/rltoken/uPn947gnZLaa0FJrrAFTGQ)
+- Column names must be: origin and nb_fans
+- Your script can be executed on any database
 
+**Context:** *Calculate/compute something is always power intensive… better to distribute the load!*
+
+```bash
 bob@dylan:~$ cat metal_bands.sql | mysql -uroot -p holberton
 Enter password:
 bob@dylan:~$
@@ -211,11 +214,12 @@ Canada  8874
 The Netherlands 8819
 Italy   7178
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
-File: 2-fans.sql
+File: `2-fans.sql`
 
 3. Old school band
 mandatory
