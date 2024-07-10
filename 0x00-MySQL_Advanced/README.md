@@ -1,7 +1,9 @@
-Concepts
-For this project, we expect you to look at this concept:
+# Concepts
 
-Advanced SQL
+*For this project, we expect you to look at this concept:*
+
+- [Advanced SQL](https://intranet.alxswe.com/concepts/555)
+
 Resources
 Read or watch:
 
@@ -50,7 +52,7 @@ $ service mysql start
  * MySQL Community Server 5.7.30 is started
 $
 $ cat 0-list_databases.sql | mysql -uroot -p my_database
-Enter password: 
+Enter password:
 Database
 information_schema
 mysql
@@ -61,11 +63,11 @@ In the container, credentials are root/root
 
 How to import a SQL dump
 $ echo "CREATE DATABASE hbtn_0d_tvshows;" | mysql -uroot -p
-Enter password: 
+Enter password:
 $ curl "https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/hbtn_0d_tvshows.sql" -s | mysql -uroot -p hbtn_0d_tvshows
-Enter password: 
+Enter password:
 $ echo "SELECT * FROM tv_genres" | mysql -uroot -p hbtn_0d_tvshows
-Enter password: 
+Enter password:
 id  name
 1   Drama
 2   Mystery
@@ -90,32 +92,32 @@ Your script can be executed on any database
 Context: Make an attribute unique directly in the table schema will enforced your business rules and avoid bugs in your application
 
 bob@dylan:~$ echo "SELECT * FROM users;" | mysql -uroot -p holberton
-Enter password: 
+Enter password:
 ERROR 1146 (42S02) at line 1: Table 'holberton.users' doesn't exist
-bob@dylan:~$ 
+bob@dylan:~$
 bob@dylan:~$ cat 0-uniq_users.sql | mysql -uroot -p holberton
-Enter password: 
-bob@dylan:~$ 
+Enter password:
+bob@dylan:~$
 bob@dylan:~$ echo 'INSERT INTO users (email, name) VALUES ("bob@dylan.com", "Bob");' | mysql -uroot -p holberton
-Enter password: 
+Enter password:
 bob@dylan:~$ echo 'INSERT INTO users (email, name) VALUES ("sylvie@dylan.com", "Sylvie");' | mysql -uroot -p holberton
-Enter password: 
+Enter password:
 bob@dylan:~$ echo 'INSERT INTO users (email, name) VALUES ("bob@dylan.com", "Jean");' | mysql -uroot -p holberton
-Enter password: 
+Enter password:
 ERROR 1062 (23000) at line 1: Duplicate entry 'bob@dylan.com' for key 'email'
-bob@dylan:~$ 
+bob@dylan:~$
 bob@dylan:~$ echo "SELECT * FROM users;" | mysql -uroot -p holberton
-Enter password: 
+Enter password:
 id  email   name
 1   bob@dylan.com   Bob
 2   sylvie@dylan.com    Sylvie
-bob@dylan:~$ 
+bob@dylan:~$
 Repo:
 
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 File: 0-uniq_users.sql
- 
+
 1. In and not out
 mandatory
 Write a SQL script that creates a table users following these requirements:
@@ -128,36 +130,36 @@ country, enumeration of countries: US, CO and TN, never null (= default will be 
 If the table already exists, your script should not fail
 Your script can be executed on any database
 bob@dylan:~$ echo "SELECT * FROM users;" | mysql -uroot -p holberton
-Enter password: 
+Enter password:
 ERROR 1146 (42S02) at line 1: Table 'holberton.users' doesn't exist
-bob@dylan:~$ 
+bob@dylan:~$
 bob@dylan:~$ cat 1-country_users.sql | mysql -uroot -p holberton
-Enter password: 
-bob@dylan:~$ 
+Enter password:
+bob@dylan:~$
 bob@dylan:~$ echo 'INSERT INTO users (email, name, country) VALUES ("bob@dylan.com", "Bob", "US");' | mysql -uroot -p holberton
-Enter password: 
+Enter password:
 bob@dylan:~$ echo 'INSERT INTO users (email, name, country) VALUES ("sylvie@dylan.com", "Sylvie", "CO");' | mysql -uroot -p holberton
-Enter password: 
+Enter password:
 bob@dylan:~$ echo 'INSERT INTO users (email, name, country) VALUES ("jean@dylan.com", "Jean", "FR");' | mysql -uroot -p holberton
-Enter password: 
+Enter password:
 ERROR 1265 (01000) at line 1: Data truncated for column 'country' at row 1
-bob@dylan:~$ 
+bob@dylan:~$
 bob@dylan:~$ echo 'INSERT INTO users (email, name) VALUES ("john@dylan.com", "John");' | mysql -uroot -p holberton
-Enter password: 
-bob@dylan:~$ 
+Enter password:
+bob@dylan:~$
 bob@dylan:~$ echo "SELECT * FROM users;" | mysql -uroot -p holberton
-Enter password: 
+Enter password:
 id  email   name    country
 1   bob@dylan.com   Bob US
 2   sylvie@dylan.com    Sylvie  CO
 3   john@dylan.com  John    US
-bob@dylan:~$ 
+bob@dylan:~$
 Repo:
 
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 File: 1-country_users.sql
- 
+
 2. Best band ever!
 mandatory
 Write a SQL script that ranks country origins of bands, ordered by the number of (non-unique) fans
@@ -170,10 +172,10 @@ Your script can be executed on any database
 Context: Calculate/compute something is always power intensive… better to distribute the load!
 
 bob@dylan:~$ cat metal_bands.sql | mysql -uroot -p holberton
-Enter password: 
-bob@dylan:~$ 
+Enter password:
+bob@dylan:~$
 bob@dylan:~$ cat 2-fans.sql | mysql -uroot -p holberton > tmp_res ; head tmp_res
-Enter password: 
+Enter password:
 origin  nb_fans
 USA 99349
 Sweden  47169
@@ -184,13 +186,13 @@ Norway  22405
 Canada  8874
 The Netherlands 8819
 Italy   7178
-bob@dylan:~$ 
+bob@dylan:~$
 Repo:
 
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 File: 2-fans.sql
- 
+
 3. Old school band
 mandatory
 Write a SQL script that lists all bands with Glam rock as their main style, ranked by their longevity
@@ -202,10 +204,10 @@ Column names must be: band_name and lifespan (in years until 2022 - please use 2
 You should use attributes formed and split for computing the lifespan
 Your script can be executed on any database
 bob@dylan:~$ cat metal_bands.sql | mysql -uroot -p holberton
-Enter password: 
-bob@dylan:~$ 
-bob@dylan:~$ cat 3-glam_rock.sql | mysql -uroot -p holberton 
-Enter password: 
+Enter password:
+bob@dylan:~$
+bob@dylan:~$ cat 3-glam_rock.sql | mysql -uroot -p holberton
+Enter password:
 band_name   lifespan
 Alice Cooper    56
 Mötley Crüe   34
@@ -214,13 +216,13 @@ The 69 Eyes 30
 Hardcore Superstar  23
 Nasty Idols 0
 Hanoi Rocks 0
-bob@dylan:~$ 
+bob@dylan:~$
 Repo:
 
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 File: 3-glam_rock.sql
- 
+
 4. Buy buy buy
 mandatory
 Write a SQL script that creates a trigger that decreases the quantity of an item after adding a new order.
@@ -246,15 +248,15 @@ CREATE TABLE IF NOT EXISTS orders (
 
 INSERT INTO items (name) VALUES ("apple"), ("pineapple"), ("pear");
 
-bob@dylan:~$ 
-bob@dylan:~$ cat 4-init.sql | mysql -uroot -p holberton 
-Enter password: 
-bob@dylan:~$ 
-bob@dylan:~$ cat 4-store.sql | mysql -uroot -p holberton 
-Enter password: 
-bob@dylan:~$ 
+bob@dylan:~$
+bob@dylan:~$ cat 4-init.sql | mysql -uroot -p holberton
+Enter password:
+bob@dylan:~$
+bob@dylan:~$ cat 4-store.sql | mysql -uroot -p holberton
+Enter password:
+bob@dylan:~$
 bob@dylan:~$ cat 4-main.sql
-Enter password: 
+Enter password:
 -- Show and add orders
 SELECT * FROM items;
 SELECT * FROM orders;
@@ -268,9 +270,9 @@ SELECT "--";
 SELECT * FROM items;
 SELECT * FROM orders;
 
-bob@dylan:~$ 
-bob@dylan:~$ cat 4-main.sql | mysql -uroot -p holberton 
-Enter password: 
+bob@dylan:~$
+bob@dylan:~$ cat 4-main.sql | mysql -uroot -p holberton
+Enter password:
 name    quantity
 apple   10
 pineapple   10
@@ -285,13 +287,13 @@ item_name   number
 apple   1
 apple   3
 pear    2
-bob@dylan:~$ 
+bob@dylan:~$
 Repo:
 
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 File: 4-store.sql
- 
+
 5. Email validation to sent
 mandatory
 Write a SQL script that creates a trigger that resets the attribute valid_email only when the email has been changed.
@@ -314,15 +316,15 @@ INSERT INTO users (email, name) VALUES ("bob@dylan.com", "Bob");
 INSERT INTO users (email, name, valid_email) VALUES ("sylvie@dylan.com", "Sylvie", 1);
 INSERT INTO users (email, name, valid_email) VALUES ("jeanne@dylan.com", "Jeanne", 1);
 
-bob@dylan:~$ 
-bob@dylan:~$ cat 5-init.sql | mysql -uroot -p holberton 
-Enter password: 
-bob@dylan:~$ 
-bob@dylan:~$ cat 5-valid_email.sql | mysql -uroot -p holberton 
-Enter password: 
-bob@dylan:~$ 
+bob@dylan:~$
+bob@dylan:~$ cat 5-init.sql | mysql -uroot -p holberton
+Enter password:
+bob@dylan:~$
+bob@dylan:~$ cat 5-valid_email.sql | mysql -uroot -p holberton
+Enter password:
+bob@dylan:~$
 bob@dylan:~$ cat 5-main.sql
-Enter password: 
+Enter password:
 -- Show users and update (or not) email
 SELECT * FROM users;
 
@@ -338,9 +340,9 @@ UPDATE users SET email = "bob@dylan.com" WHERE email = "bob@dylan.com";
 SELECT "--";
 SELECT * FROM users;
 
-bob@dylan:~$ 
-bob@dylan:~$ cat 5-main.sql | mysql -uroot -p holberton 
-Enter password: 
+bob@dylan:~$
+bob@dylan:~$ cat 5-main.sql | mysql -uroot -p holberton
+Enter password:
 id  email   name    valid_email
 1   bob@dylan.com   Bob 0
 2   sylvie@dylan.com    Sylvie  1
@@ -357,13 +359,13 @@ id  email   name    valid_email
 1   bob@dylan.com   Bob 1
 2   sylvie+new@dylan.com    Sylvie  0
 3   jeanne@dylan.com    Jannis  1
-bob@dylan:~$ 
+bob@dylan:~$
 Repo:
 
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 File: 5-valid_email.sql
- 
+
 6. Add bonus
 mandatory
 Write a SQL script that creates a stored procedure AddBonus that adds a new correction for a student.
@@ -424,15 +426,15 @@ INSERT INTO corrections (user_id, project_id, score) VALUES (@user_bob, @project
 INSERT INTO corrections (user_id, project_id, score) VALUES (@user_jeanne, @project_c, 91);
 INSERT INTO corrections (user_id, project_id, score) VALUES (@user_jeanne, @project_py, 73);
 
-bob@dylan:~$ 
-bob@dylan:~$ cat 6-init.sql | mysql -uroot -p holberton 
-Enter password: 
-bob@dylan:~$ 
-bob@dylan:~$ cat 6-bonus.sql | mysql -uroot -p holberton 
-Enter password: 
-bob@dylan:~$ 
+bob@dylan:~$
+bob@dylan:~$ cat 6-init.sql | mysql -uroot -p holberton
+Enter password:
+bob@dylan:~$
+bob@dylan:~$ cat 6-bonus.sql | mysql -uroot -p holberton
+Enter password:
+bob@dylan:~$
 bob@dylan:~$ cat 6-main.sql
-Enter password: 
+Enter password:
 -- Show and add bonus correction
 SELECT * FROM projects;
 SELECT * FROM corrections;
@@ -451,9 +453,9 @@ SELECT "--";
 SELECT * FROM projects;
 SELECT * FROM corrections;
 
-bob@dylan:~$ 
-bob@dylan:~$ cat 6-main.sql | mysql -uroot -p holberton 
-Enter password: 
+bob@dylan:~$
+bob@dylan:~$ cat 6-main.sql | mysql -uroot -p holberton
+Enter password:
 id  name
 1   C is fun
 2   Python is cool
@@ -480,13 +482,13 @@ user_id project_id  score
 2   3   100
 1   3   10
 2   4   90
-bob@dylan:~$ 
+bob@dylan:~$
 Repo:
 
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 File: 6-bonus.sql
- 
+
 7. Average score
 mandatory
 Write a SQL script that creates a stored procedure ComputeAverageScoreForUser that computes and store the average score for a student. Note: An average score can be a decimal
@@ -543,13 +545,13 @@ INSERT INTO corrections (user_id, project_id, score) VALUES (@user_bob, @project
 INSERT INTO corrections (user_id, project_id, score) VALUES (@user_jeanne, @project_c, 91);
 INSERT INTO corrections (user_id, project_id, score) VALUES (@user_jeanne, @project_py, 73);
 
-bob@dylan:~$ 
-bob@dylan:~$ cat 7-init.sql | mysql -uroot -p holberton 
-Enter password: 
-bob@dylan:~$ 
-bob@dylan:~$ cat 7-average_score.sql | mysql -uroot -p holberton 
-Enter password: 
-bob@dylan:~$ 
+bob@dylan:~$
+bob@dylan:~$ cat 7-init.sql | mysql -uroot -p holberton
+Enter password:
+bob@dylan:~$
+bob@dylan:~$ cat 7-average_score.sql | mysql -uroot -p holberton
+Enter password:
+bob@dylan:~$
 bob@dylan:~$ cat 7-main.sql
 -- Show and compute average score
 SELECT * FROM users;
@@ -561,9 +563,9 @@ CALL ComputeAverageScoreForUser((SELECT id FROM users WHERE name = "Jeanne"));
 SELECT "--";
 SELECT * FROM users;
 
-bob@dylan:~$ 
-bob@dylan:~$ cat 7-main.sql | mysql -uroot -p holberton 
-Enter password: 
+bob@dylan:~$
+bob@dylan:~$ cat 7-main.sql | mysql -uroot -p holberton
+Enter password:
 id  name    average_score
 1   Bob 0
 2   Jeanne  0
@@ -579,13 +581,13 @@ user_id project_id  score
 id  name    average_score
 1   Bob 0
 2   Jeanne  82
-bob@dylan:~$ 
+bob@dylan:~$
 Repo:
 
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 File: 7-average_score.sql
- 
+
 8. Optimize simple search
 mandatory
 Write a SQL script that creates an index idx_name_first on the table names and the first letter of name.
@@ -597,10 +599,10 @@ Only the first letter of name must be indexed
 Context: Index is not the solution for any performance issue, but well used, it’s really powerful!
 
 bob@dylan:~$ cat names.sql | mysql -uroot -p holberton
-Enter password: 
-bob@dylan:~$ 
+Enter password:
+bob@dylan:~$
 bob@dylan:~$ mysql -uroot -p holberton
-Enter password: 
+Enter password:
 mysql> SELECT COUNT(name) FROM names WHERE name LIKE 'a%';
 +-------------+
 | COUNT(name) |
@@ -608,15 +610,15 @@ mysql> SELECT COUNT(name) FROM names WHERE name LIKE 'a%';
 |      302936 |
 +-------------+
 1 row in set (2.19 sec)
-mysql> 
+mysql>
 mysql> exit
 bye
-bob@dylan:~$ 
-bob@dylan:~$ cat 8-index_my_names.sql | mysql -uroot -p holberton 
-Enter password: 
-bob@dylan:~$ 
+bob@dylan:~$
+bob@dylan:~$ cat 8-index_my_names.sql | mysql -uroot -p holberton
+Enter password:
+bob@dylan:~$
 bob@dylan:~$ mysql -uroot -p holberton
-Enter password: 
+Enter password:
 mysql> SHOW index FROM names;
 +-------+------------+----------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
 | Table | Non_unique | Key_name       | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment |
@@ -624,7 +626,7 @@ mysql> SHOW index FROM names;
 | names |          1 | idx_name_first |            1 | name        | A         |          25 |        1 | NULL   | YES  | BTREE      |         |               |
 +-------+------------+----------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
 1 row in set (0.00 sec)
-mysql> 
+mysql>
 mysql> SELECT COUNT(name) FROM names WHERE name LIKE 'a%';
 +-------------+
 | COUNT(name) |
@@ -632,16 +634,16 @@ mysql> SELECT COUNT(name) FROM names WHERE name LIKE 'a%';
 |      302936 |
 +-------------+
 1 row in set (0.82 sec)
-mysql> 
+mysql>
 mysql> exit
 bye
-bob@dylan:~$ 
+bob@dylan:~$
 Repo:
 
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 File: 8-index_my_names.sql
- 
+
 9. Optimize search and score
 mandatory
 Write a SQL script that creates an index idx_name_first_score on the table names and the first letter of name and the score.
@@ -651,10 +653,10 @@ Requirements:
 Import this table dump: names.sql.zip
 Only the first letter of name AND score must be indexed
 bob@dylan:~$ cat names.sql | mysql -uroot -p holberton
-Enter password: 
-bob@dylan:~$ 
+Enter password:
+bob@dylan:~$
 bob@dylan:~$ mysql -uroot -p holberton
-Enter password: 
+Enter password:
 mysql> SELECT COUNT(name) FROM names WHERE name LIKE 'a%' AND score < 80;
 +-------------+
 | count(name) |
@@ -662,15 +664,15 @@ mysql> SELECT COUNT(name) FROM names WHERE name LIKE 'a%' AND score < 80;
 |       60717 |
 +-------------+
 1 row in set (2.40 sec)
-mysql> 
+mysql>
 mysql> exit
 bye
-bob@dylan:~$ 
-bob@dylan:~$ cat 9-index_name_score.sql | mysql -uroot -p holberton 
-Enter password: 
-bob@dylan:~$ 
+bob@dylan:~$
+bob@dylan:~$ cat 9-index_name_score.sql | mysql -uroot -p holberton
+Enter password:
+bob@dylan:~$
 bob@dylan:~$ mysql -uroot -p holberton
-Enter password: 
+Enter password:
 mysql> SHOW index FROM names;
 +-------+------------+----------------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
 | Table | Non_unique | Key_name             | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment |
@@ -679,7 +681,7 @@ mysql> SHOW index FROM names;
 | names |          1 | idx_name_first_score |            2 | score       | A         |        3901 |     NULL | NULL   | YES  | BTREE      |         |               |
 +-------+------------+----------------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
 2 rows in set (0.00 sec)
-mysql> 
+mysql>
 mysql> SELECT COUNT(name) FROM names WHERE name LIKE 'a%' AND score < 80;
 +-------------+
 | COUNT(name) |
@@ -687,16 +689,16 @@ mysql> SELECT COUNT(name) FROM names WHERE name LIKE 'a%' AND score < 80;
 |       60717 |
 +-------------+
 1 row in set (0.48 sec)
-mysql> 
+mysql>
 mysql> exit
 bye
-bob@dylan:~$ 
+bob@dylan:~$
 Repo:
 
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 File: 9-index_name_score.sql
- 
+
 10. Safe divide
 mandatory
 Write a SQL script that creates a function SafeDiv that divides (and returns) the first by the second number or returns 0 if the second number is equal to 0.
@@ -725,13 +727,13 @@ INSERT INTO numbers (a, b) VALUES (7, 0);
 INSERT INTO numbers (a, b) VALUES (6, 8);
 
 bob@dylan:~$ cat 10-init.sql | mysql -uroot -p holberton
-Enter password: 
-bob@dylan:~$ 
+Enter password:
+bob@dylan:~$
 bob@dylan:~$ cat 10-div.sql | mysql -uroot -p holberton
-Enter password: 
-bob@dylan:~$ 
+Enter password:
+bob@dylan:~$
 bob@dylan:~$ echo "SELECT (a / b) FROM numbers;" | mysql -uroot -p holberton
-Enter password: 
+Enter password:
 (a / b)
 5.0000
 0.8000
@@ -739,9 +741,9 @@ Enter password:
 2.0000
 NULL
 0.7500
-bob@dylan:~$ 
+bob@dylan:~$
 bob@dylan:~$ echo "SELECT SafeDiv(a, b) FROM numbers;" | mysql -uroot -p holberton
-Enter password: 
+Enter password:
 SafeDiv(a, b)
 5
 0.800000011920929
@@ -749,13 +751,13 @@ SafeDiv(a, b)
 2
 0
 0.75
-bob@dylan:~$ 
+bob@dylan:~$
 Repo:
 
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 File: 10-div.sql
- 
+
 11. No table for a meeting
 mandatory
 Write a SQL script that creates a view need_meeting that lists all students that have a score under 80 (strict) and no last_meeting or more than 1 month.
@@ -772,7 +774,7 @@ DROP TABLE IF EXISTS students;
 CREATE TABLE IF NOT EXISTS students (
     name VARCHAR(255) NOT NULL,
     score INT default 0,
-    last_meeting DATE NULL 
+    last_meeting DATE NULL
 );
 
 INSERT INTO students (name, score) VALUES ("Bob", 80);
@@ -783,11 +785,11 @@ INSERT INTO students (name, score) VALUES ("Camilia", 80);
 INSERT INTO students (name, score) VALUES ("Alexa", 130);
 
 bob@dylan:~$ cat 11-init.sql | mysql -uroot -p holberton
-Enter password: 
-bob@dylan:~$ 
+Enter password:
+bob@dylan:~$
 bob@dylan:~$ cat 11-need_meeting.sql | mysql -uroot -p holberton
-Enter password: 
-bob@dylan:~$ 
+Enter password:
+bob@dylan:~$
 bob@dylan:~$ cat 11-main.sql
 -- Test view
 SELECT * FROM need_meeting;
@@ -820,9 +822,9 @@ SELECT "--";
 
 SHOW CREATE TABLE students;
 
-bob@dylan:~$ 
+bob@dylan:~$
 bob@dylan:~$ cat 11-main.sql | mysql -uroot -p holberton
-Enter password: 
+Enter password:
 name
 Jean
 Steeve
@@ -854,13 +856,13 @@ XXXXXX<yes, here it will display the View SQL statement :-) >XXXXXX
 --
 Table   Create Table
 students    CREATE TABLE `students` (\n  `name` varchar(255) NOT NULL,\n  `score` int(11) DEFAULT '0',\n  `last_meeting` date DEFAULT NULL\n) ENGINE=InnoDB DEFAULT CHARSET=latin1
-bob@dylan:~$ 
+bob@dylan:~$
 Repo:
 
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 File: 11-need_meeting.sql
- 
+
 12. Average weighted score
 #advanced
 Write a SQL script that creates a stored procedure ComputeAverageWeightedScoreForUser that computes and store the average weighted score for a student.
@@ -921,13 +923,13 @@ INSERT INTO corrections (user_id, project_id, score) VALUES (@user_bob, @project
 INSERT INTO corrections (user_id, project_id, score) VALUES (@user_jeanne, @project_c, 91);
 INSERT INTO corrections (user_id, project_id, score) VALUES (@user_jeanne, @project_py, 73);
 
-bob@dylan:~$ 
-bob@dylan:~$ cat 100-init.sql | mysql -uroot -p holberton 
-Enter password: 
-bob@dylan:~$ 
-bob@dylan:~$ cat 100-average_weighted_score.sql | mysql -uroot -p holberton 
-Enter password: 
-bob@dylan:~$ 
+bob@dylan:~$
+bob@dylan:~$ cat 100-init.sql | mysql -uroot -p holberton
+Enter password:
+bob@dylan:~$
+bob@dylan:~$ cat 100-average_weighted_score.sql | mysql -uroot -p holberton
+Enter password:
+bob@dylan:~$
 bob@dylan:~$ cat 100-main.sql
 -- Show and compute average weighted score
 SELECT * FROM users;
@@ -939,9 +941,9 @@ CALL ComputeAverageWeightedScoreForUser((SELECT id FROM users WHERE name = "Jean
 SELECT "--";
 SELECT * FROM users;
 
-bob@dylan:~$ 
-bob@dylan:~$ cat 100-main.sql | mysql -uroot -p holberton 
-Enter password: 
+bob@dylan:~$
+bob@dylan:~$ cat 100-main.sql | mysql -uroot -p holberton
+Enter password:
 id  name    average_score
 1   Bob 0
 2   Jeanne  82
@@ -958,13 +960,13 @@ user_id project_id  score
 id  name    average_score
 1   Bob 0
 2   Jeanne  79
-bob@dylan:~$ 
+bob@dylan:~$
 Repo:
 
 GitHub repository: alx-backend-storage
 Directory: 0x00-MySQL_Advanced
 File: 100-average_weighted_score.sql
- 
+
 13. Average weighted score for all!
 #advanced
 Write a SQL script that creates a stored procedure ComputeAverageWeightedScoreForUsers that computes and store the average weighted score for all students.
@@ -1024,13 +1026,13 @@ INSERT INTO corrections (user_id, project_id, score) VALUES (@user_bob, @project
 INSERT INTO corrections (user_id, project_id, score) VALUES (@user_jeanne, @project_c, 91);
 INSERT INTO corrections (user_id, project_id, score) VALUES (@user_jeanne, @project_py, 73);
 
-bob@dylan:~$ 
-bob@dylan:~$ cat 101-init.sql | mysql -uroot -p holberton 
-Enter password: 
-bob@dylan:~$ 
-bob@dylan:~$ cat 101-average_weighted_score.sql | mysql -uroot -p holberton 
-Enter password: 
-bob@dylan:~$ 
+bob@dylan:~$
+bob@dylan:~$ cat 101-init.sql | mysql -uroot -p holberton
+Enter password:
+bob@dylan:~$
+bob@dylan:~$ cat 101-average_weighted_score.sql | mysql -uroot -p holberton
+Enter password:
+bob@dylan:~$
 bob@dylan:~$ cat 101-main.sql
 -- Show and compute average weighted score
 SELECT * FROM users;
@@ -1042,9 +1044,9 @@ CALL ComputeAverageWeightedScoreForUsers();
 SELECT "--";
 SELECT * FROM users;
 
-bob@dylan:~$ 
-bob@dylan:~$ cat 101-main.sql | mysql -uroot -p holberton 
-Enter password: 
+bob@dylan:~$
+bob@dylan:~$ cat 101-main.sql | mysql -uroot -p holberton
+Enter password:
 id  name    average_score
 1   Bob 0
 2   Jeanne  0
@@ -1061,7 +1063,7 @@ user_id project_id  score
 id  name    average_score
 1   Bob 90.6667
 2   Jeanne  79
-bob@dylan:~$ 
+bob@dylan:~$
 Repo:
 
 GitHub repository: alx-backend-storage
