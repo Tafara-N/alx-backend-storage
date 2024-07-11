@@ -1,8 +1,8 @@
 -- Script creates a TRIGGER that resets the attribute valid_email only WHEN the email has been changed
 
-DROP TRIGGER IF EXISTS email_bool;
-DELIMETER |
-CREATE TRIGGER email_bool BEFORE UPDATE ON users
+DROP TRIGGER IF EXISTS is_email;
+DELIMETER $$
+CREATE TRIGGER is_email BEFORE UPDATE ON users
 FOR EACH ROW
 BEGIN
     IF OLD.email != NEW.email THEN
@@ -10,5 +10,5 @@ BEGIN
     ELSE
         SET NEW.valid_email = NEW.valid_email;
     END IF;
-END |
+END $$
 DELIMITER;
