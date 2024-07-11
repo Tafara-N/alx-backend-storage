@@ -1,7 +1,7 @@
 -- Script creates a TRIGGER that resets the attribute valid_email only WHEN the email has been changed
 
-DELIMETER
-//
+-- DELIMETER
+-- //
 CREATE TRIGGER is_email BEFORE UPDATE ON users
 FOR EACH ROW
 BEGIN
@@ -9,4 +9,4 @@ BEGIN
         SET NEW.valid_email = 0;
     END IF;
 END;
-//
+-- //
