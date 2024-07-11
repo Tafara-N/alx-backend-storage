@@ -681,20 +681,23 @@ mysql>
 mysql> exit
 bye
 bob@dylan:~$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-backend-storage`
 - Directory: `0x00-MySQL_Advanced`
-- File: 8-index_my_names.sql
+- File: `8-index_my_names.sql`
 
-9. Optimize search and score
-mandatory
-Write a SQL script that creates an index idx_name_first_score on the table names and the first letter of name and the score.
+### 9. Optimize search and score
 
-Requirements:
+Write a SQL script that creates an index `idx_name_first_score` on the table names and the first letter of `name` and the score.
 
-Import this table dump: names.sql.zip
-Only the first letter of name AND score must be indexed
+**Requirements:**
+
+- Import this table dump: [names.sql.zip]()
+- Only the first letter of name AND score must be indexed
+
+```bash
 bob@dylan:~$ cat names.sql | mysql -uroot -p holberton
 Enter password:
 bob@dylan:~$
