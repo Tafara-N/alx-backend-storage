@@ -2,7 +2,7 @@
 
 DELIMETER
 //
-CREATE TRIGGER is_email BEFORE UPDATE ON users
+CREATE TRIGGER email_validate_trigger BEFORE UPDATE ON users
 FOR EACH ROW
 BEGIN
     IF NEW.email != OLD.email THEN
