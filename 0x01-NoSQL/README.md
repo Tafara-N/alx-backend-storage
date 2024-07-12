@@ -1,8 +1,8 @@
 # Resources
 
 **Read or watch:**
-- [NoSQL Databases Explained (/rltoken/wweK7dOY4pf8haCqv9Iv6Q)
-- [What is NoSQL ? (/rltoken/QqqNmgzgwopHBv305ki6bg)
+- [NoSQL Databases Explained](/rltoken/wweK7dOY4pf8haCqv9Iv6Q)
+- [What is NoSQL ?](/rltoken/QqqNmgzgwopHBv305ki6bg)
 - [MongoDB with Python Crash Course - Tutorial for Beginners (/rltoken/RyyP9OH1EMBWWYpTs4TqoA)
 - [MongoDB Tutorial 2 : Insert, Update, Remove, Query (/rltoken/9__3tR-NimgXlmjPQwTF-Q)
 Aggregation (/rltoken/ziEDeniRobC6owPE1_avAQ)
