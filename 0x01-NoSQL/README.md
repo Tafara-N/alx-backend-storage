@@ -565,15 +565,17 @@ method DELETE: 0
 47415 status check
 guillaume@ubuntu:~/0x01$
 
-
+Repo:
+GitHub repository: alx-backend-storage
+Directory: 0x01-NoSQL
+File: `12-log_stats.py`
 
-(/)
-
- Done! Check your code  Get a sandbox QA Review
-13. Regex filter #advanced
+### 13. Regex filter
 
 Write a script that lists all documents with name starting by Holberton in the collection school :
 The database name will be passed as option of mongo command
+
+```bash
 guillaume@ubuntu:~/0x01$ cat 100-find | mongo my_db
 MongoDB shell version v3.6.3
 connecting to: mongodb://127.0.0.1:27017/my_db
@@ -583,39 +585,23 @@ MongoDB server version: 3.6.3
 { "_id" : ObjectId("5a90731fd4321e1e5a3f53e3"), "name" : "Holberton-school" }
 bye
 guillaume@ubuntu:~/0x01$
+```
 
- Done! Check your code  Get a sandbox QA Review
+Repo:
+GitHub repository: alx-backend-storage
+Directory: 0x01-NoSQL
+File: `100-find`
 
-14. Top students #advanced
+### 14. Top students
 
 Write a Python function that returns all students sorted by average score:
-Prototype: def top_students(mongo_collection):
-mongo_collection will be the pymongo collection object
-The top must be ordered
-Repo:
-GitHub repository: alx-backend-storage
-Directory: 0x01-NoSQL
-File: 12-log_stats.py
 
-Score: 100.0% (Checks completed: 100.0%)
+- Prototype: `def top_students(mongo_collection):`
+- `mongo_collection` will be the `pymongo` collection object
+- The top must be ordered
+- The average score must be part of each item returns with key = `averageScore`
 
-Repo:
-GitHub repository: alx-backend-storage
-Directory: 0x01-NoSQL
-File: 100-find
-
-Score: 100.0% (Checks completed: 100.0%)
-
-
-
-(/)
-
-The average score must be part of each item returns with key = averageScore
-
-
-
-(/)
-
+```bash
 guillaume@ubuntu:~/0x01$ cat 101-main.py
 #!/usr/bin/env python3
 """ 101-main """
@@ -662,12 +648,7 @@ e': 8.8}, {'title': 'Python', 'score': 15.7}]
 e': 10.2}, {'title': 'Python', 'score': 10.1}]
 [5a90776bd4321e1ec94fc40a] Sonia => 13.1
 [5a90776bd4321e1ec94fc40c] Julia => 10.266666666666666
-[5a90776bd4321e1ec94fc408] John => 9.533333333333333
-
-
-
-(/)
-
+[5a90776bd4321e1ec94fc408] John => 9.53333333333333
 [5a90776bd4321e1ec94fc40b] Amy => 9.366666666666665
 [5a90776bd4321e1ec94fc409] Bob => 6.066666666666667
 guillaume@ubuntu:~/0x01$
