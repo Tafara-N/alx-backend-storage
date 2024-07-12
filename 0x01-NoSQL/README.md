@@ -21,15 +21,10 @@ At the end of this project, you are expected to be able to [explain to anyon](),
 - What are NoSQL types
 - What are benefits of a NoSQL database
 - How to query information from a NoSQL database
-How to insert/update/delete information from a NoSQL database
-How to use MongoDB
- Weight: 1
+- How to insert/update/delete information from a NoSQL database
+- How to use MongoDB
 
-
-
-(/)
-
-Requirements
+# Requirements
 MongoDB Command File
 All your files will be interpreted/compiled on Ubuntu 18.04 LTS using MongoDB (version 4.2)
 All your files should end with a new line
