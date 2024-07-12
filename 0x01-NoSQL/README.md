@@ -443,17 +443,14 @@ Write a Python function that returns the list of school having a specific topic:
 Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x01-NoSQL
-File: 10-update_topics.py
+File: `10-update_topics.py`
 
-Score: 100.0% (Checks completed: 100.0%)
 
-
+- Prototype: `def schools_by_topic(mongo_collection, topic):`
+- `mongo_collection` will be the `pymongo` collection object
+- `topic` (string) will be topic searched
 
-(/)
-
-Prototype: def schools_by_topic(mongo_collection, topic):
-mongo_collection will be the pymongo collection object
-topic (string) will be topic searched
+```bash
 guillaume@ubuntu:~/0x01$ cat 11-main.py
 #!/usr/bin/env python3
 """ 11-main """
@@ -482,31 +479,25 @@ guillaume@ubuntu:~/0x01$ ./11-main.py
 [5a90731fd4321e1e5a3f53e3] Holberton school ['Algo', 'C', 'Python', 'React']
 [5a90731fd4321e1e5a3f53e5] UCLA ['C', 'Python']
 guillaume@ubuntu:~/0x01$
+```
 
- Done! Check your code  Get a sandbox QA Review
-12. Log stats mandatory
 Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x01-NoSQL
-File: 11-schools_by_topic.py
+File: `11-schools_by_topic.py`
 
-Score: 65.0% (Checks completed: 100.0%)
-
-
-
-(/)
+### 12. Log stats
 
 Write a Python script that provides some stats about Nginx logs stored in MongoDB:
-Database: logs
-Collection: nginx
-Display (same as the example):
-first line: x logs where x is the number of documents in this collection
-second line: Methods:
-5 lines with the number of documents with the method = ["GET", "POST", "PUT", "PATCH",
-"DELETE"] in this order (see example below - warning: it’s a tabulation before each line)
-one line with the number of documents with:
-method=GET
-path=/status
+- Database: `logs`
+- Collection: `nginx`
+- Display (same as the example):
+    - first line: `x logs` where `x` is the number of documents in this collection
+    - second line: `Methods`:
+    - 5 lines with the number of documents with the `method = ["GET", "POST", "PUT", "PATCH", "DELETE"]` in this order (see example below - warning: it’s a tabulation before each line)
+    - one line with the number of documents with:
+        - `method=GET`
+        - `path=/status`
 
 You can use this dump as data sample: [dump.zip]()
 
