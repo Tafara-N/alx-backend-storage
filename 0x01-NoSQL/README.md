@@ -129,15 +129,13 @@ Score: 100.0% (Checks completed: 100.0%)
 Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x01-NoSQL
-File: 0-list_databases
+File: `0-list_databases`
 
-
+### 1. Create a database
 
-(/)
+Write a script that creates or uses the database `my_db` :
 
-1. Create a database mandatory
-
-Write a script that creates or uses the database my_db :
+```bash
 guillaume@ubuntu:~/0x01$ cat 0-list_databases | mongo
 MongoDB shell version v3.6.3
 connecting to: mongodb://127.0.0.1:27017
