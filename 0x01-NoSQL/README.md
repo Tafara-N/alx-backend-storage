@@ -155,26 +155,21 @@ MongoDB server version: 3.6.3
 switched to db my_db
 bye
 guillaume@ubuntu:~/0x01$
-
- Done! Check your code  Get a sandbox QA Review
-2. Insert document mandatory
-
-Write a script that inserts a document in the collection school :
-The document must have one attribute name with value “Holberton school”
-The database name will be passed as option of mongo command
-Score: 100.0% (Checks completed: 100.0%)
+```
 
 Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x01-NoSQL
-File: 1-use_or_create_database
+File: `1-use_or_create_database`
 
-Score: 100.0% (Checks completed: 100.0%)
+### 2. Insert document mandatory
 
-
+Write a script that inserts a document in the collection `school` :
 
-(/)
+- The document must have one attribute `name` with value “Holberton school”
+- The database name will be passed as option of `mongo` command
 
+```bash
 guillaume@ubuntu:~/0x01$ cat 2-insert | mongo my_db
 MongoDB shell version v3.6.3
 connecting to: mongodb://127.0.0.1:27017/my_db
@@ -182,12 +177,20 @@ MongoDB server version: 3.6.3
 WriteResult({ "nInserted" : 1 })
 bye
 guillaume@ubuntu:~/0x01$
+```
 
- Done! Check your code  Get a sandbox QA Review
-3. All documents mandatory
+Repo:
+GitHub repository: alx-backend-storage
+Directory: 0x01-NoSQL
+File: `2-insert`
 
-Write a script that lists all documents in the collection school :
-The database name will be passed as option of mongo command
+### 3. All documents mandatory
+
+Write a script that lists all documents in the collection `school` :
+
+- The database name will be passed as option of `mongo` command
+
+```bash
 guillaume@ubuntu:~/0x01$ cat 3-all | mongo my_db
 MongoDB shell version v3.6.3
 connecting to: mongodb://127.0.0.1:27017/my_db
@@ -195,30 +198,21 @@ MongoDB server version: 3.6.3
 { "_id" : ObjectId("5a8fad532b69437b63252406"), "name" : "Holberton school" }
 bye
 guillaume@ubuntu:~/0x01$
-
- Done! Check your code  Get a sandbox QA Review
-
-4. All matches mandatory
-Repo:
-GitHub repository: alx-backend-storage
-Directory: 0x01-NoSQL
-File: 2-insert
-
-Score: 100.0% (Checks completed: 100.0%)
+```
 
 Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x01-NoSQL
-File: 3-all
+File: `3-all`
 
-Score: 100 0% (Ch k l t d 100 0%)
 
-
+### 4. All matches
 
-(/)
+Write a script that lists all documents with `name="Holberton school"` in the collection `school` :
 
-Write a script that lists all documents with name="Holberton school" in the collection school :
-The database name will be passed as option of mongo command
+- The database name will be passed as option of `mongo` command
+
+```bash
 guillaume@ubuntu:~/0x01$ cat 4-match | mongo my_db
 MongoDB shell version v3.6.3
 connecting to: mongodb://127.0.0.1:27017/my_db
@@ -226,12 +220,20 @@ MongoDB server version: 3.6.3
 { "_id" : ObjectId("5a8fad532b69437b63252406"), "name" : "Holberton school" }
 bye
 guillaume@ubuntu:~/0x01$
+```
 
- Done! Check your code  Get a sandbox QA Review
-5. Count mandatory
+Repo:
+GitHub repository: alx-backend-storage
+Directory: 0x01-NoSQL
+File: `4-match`
 
-Write a script that displays the number of documents in the collection school :
-The database name will be passed as option of mongo command
+### 5. Count
+
+Write a script that displays the number of documents in the collection `school` :
+
+- The database name will be passed as option of `mongo` command
+
+```bash
 guillaume@ubuntu:~/0x01$ cat 5-count | mongo my_db
 MongoDB shell version v3.6.3
 connecting to: mongodb://127.0.0.1:27017/my_db
@@ -239,16 +241,7 @@ MongoDB server version: 3.6.3
 1
 bye
 guillaume@ubuntu:~/0x01$
-
- Done! Check your code  Get a sandbox QA Review
-Score: 100.0% (Checks completed: 100.0%)
-
-Repo:
-GitHub repository: alx-backend-storage
-Directory: 0x01-NoSQL
-File: 4-match
-
-Score: 100.0% (Checks completed: 100.0%)
+```
 
 Repo:
 GitHub repository: alx-backend-storage
