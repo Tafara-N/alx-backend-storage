@@ -281,6 +281,7 @@ guillaume@ubuntu:~/0x01$
 ### 7. Delete by match
 
 Write a script that deletes all documents with `name="Holberton school"` in the collection `school` :
+
 - The database name will be passed as option of `mongo` command
 
 ```bash
