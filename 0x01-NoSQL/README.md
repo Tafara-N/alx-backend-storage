@@ -108,10 +108,13 @@ bye
 $
 ```
 
-Tasks
-0. List all databases mandatory
+## Tasks
+
+### 0. List all databases
 
 Write a script that lists all databases in MongoDB.
+
+```bash
 guillaume@ubuntu:~/0x01$ cat 0-list_databases | mongo
 MongoDB shell version v3.6.3
 connecting to: mongodb://127.0.0.1:27017
@@ -122,9 +125,7 @@ local 0.000GB
 logs 0.005GB
 bye
 guillaume@ubuntu:~/0x01$
-
- Done! Check your code  Get a sandbox QA Review
-Score: 100.0% (Checks completed: 100.0%)
+```
 
 Repo:
 GitHub repository: alx-backend-storage
