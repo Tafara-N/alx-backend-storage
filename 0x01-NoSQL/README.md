@@ -12,9 +12,10 @@
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyon](), **without the help of Google:**
-General
-What NoSQL means
-What is difference between SQL and NoSQL
+
+## General
+- What NoSQL means
+- What is difference between SQL and NoSQL
 What is ACID
 What is a document storage
 What are NoSQL types
