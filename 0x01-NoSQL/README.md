@@ -5,11 +5,12 @@
 - [What is NoSQL ?](/rltoken/QqqNmgzgwopHBv305ki6bg)
 - [MongoDB with Python Crash Course - Tutorial for Beginners]()
 - [MongoDB Tutorial 2 : Insert, Update, Remove, Query]()
-Aggregation (/rltoken/ziEDeniRobC6owPE1_avAQ)
-Introduction to MongoDB and Python (/rltoken/axwwF4CjO7FnK8Ecochqnw)
-mongo Shell Methods (/rltoken/lUqnLwOHbbp9FK39ijNmDQ)
-Mongosh (/rltoken/ipHIVVmAsezINqpk7W0eow)
-Learning Objectives
+- [Aggregation (/rltoken/ziEDeniRobC6owPE1_avAQ)
+- [Introduction to MongoDB and Python (/rltoken/axwwF4CjO7FnK8Ecochqnw)
+- [mongo Shell Methods (/rltoken/lUqnLwOHbbp9FK39ijNmDQ)
+- [Mongosh (/rltoken/ipHIVVmAsezINqpk7W0eow)
+
+# Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone
 (/rltoken/9u20uNESC1dnTNowO5waNQ), without the help of Google:
 General
