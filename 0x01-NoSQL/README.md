@@ -3,7 +3,7 @@
 **Read or watch:**
 - [NoSQL Databases Explained](/rltoken/wweK7dOY4pf8haCqv9Iv6Q)
 - [What is NoSQL ?](/rltoken/QqqNmgzgwopHBv305ki6bg)
-- [MongoDB with Python Crash Course - Tutorial for Beginners (/rltoken/RyyP9OH1EMBWWYpTs4TqoA)
+- [MongoDB with Python Crash Course - Tutorial for Beginners]()
 - [MongoDB Tutorial 2 : Insert, Update, Remove, Query]()
 Aggregation (/rltoken/ziEDeniRobC6owPE1_avAQ)
 Introduction to MongoDB and Python (/rltoken/axwwF4CjO7FnK8Ecochqnw)
