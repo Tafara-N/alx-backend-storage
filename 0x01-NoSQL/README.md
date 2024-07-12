@@ -310,25 +310,22 @@ connecting to: mongodb://127.0.0.1:27017/my_db
 MongoDB server version: 3.6.3
 bye
 guillaume@ubuntu:~/0x01$
+```
 
- Done! Check your code  Get a sandbox QA Review
-8. List all documents in Python mandatory
-
-Write a Python function that lists all documents in a collection:
-Prototype: def list_all(mongo_collection):
-Return an empty list if no document in the collection
-mongo_collection will be the pymongo collection object
 Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x01-NoSQL
-File: 7-delete
+File: `7-delete`
 
-Score: 100.0% (Checks completed: 100.0%)
+### 8. List all documents in Python
 
-
+Write a Python function that lists all documents in a collection:
 
-(/)
+- Prototype: `def list_all(mongo_collection):`
+- Return an empty list if no document in the collection
+- `mongo_collection` will be the pymongo collection object
 
+```bash
 guillaume@ubuntu:~/0x01$ cat 8-main.py
 #!/usr/bin/env python3
 """ 8-main """
