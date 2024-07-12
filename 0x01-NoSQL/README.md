@@ -345,25 +345,22 @@ guillaume@ubuntu:~/0x01$ ./8-main.py
 [5a8f60cfd4321e1403ba7ab9] Holberton school
 [5a8f60cfd4321e1403ba7aba] UCSD
 guillaume@ubuntu:~/0x01$
+```
 
- Done! Check your code  Get a sandbox QA Review
-9. Insert a document in Python mandatory
-
-Write a Python function that inserts a new document in a collection based on kwargs :
-Prototype: def insert_school(mongo_collection, **kwargs):
-mongo_collection will be the pymongo collection object
-Returns the new _id
 Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x01-NoSQL
-File: 8-all.py
+File: `8-all.py`
 
-Score: 100.0% (Checks completed: 100.0%)
+### 9. Insert a document in Python
 
-
+Write a Python function that inserts a new document in a collection based on kwargs :
 
-(/)
+- Prototype: `def insert_school(mongo_collection, **kwargs):`
+- `mongo_collection` will be the `pymongo` collection object
+- Returns the new `_id`
 
+```bash
 guillaume@ubuntu:~/0x01$ cat 9-main.py
 #!/usr/bin/env python3
 """ 9-main """
@@ -387,26 +384,23 @@ New school created: 5a8f60cfd4321e1403ba7abb
 [5a8f60cfd4321e1403ba7aba] UCSD
 [5a8f60cfd4321e1403ba7abb] UCSF 505 Parnassus Ave
 guillaume@ubuntu:~/0x01$
+```
 
- Done! Check your code  Get a sandbox QA Review
-10. Change school topics mandatory
-
-Write a Python function that changes all topics of a school document based on the name:
-Prototype: def update_topics(mongo_collection, name, topics):
-mongo_collection will be the pymongo collection object
-name (string) will be the school name to update
-topics (list of strings) will be the list of topics approached in the school
 Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x01-NoSQL
-File: 9-insert_school.py
+File: `9-insert_school.py`
 
-Score: 100.0% (Checks completed: 100.0%)
+### 10. Change school topics
 
-
+Write a Python function that changes all topics of a school document based on the name:
 
-(/)
+- Prototype: `def update_topics(mongo_collection, name, topics):`
+- `mongo_collection` will be the `pymongo` collection object
+- `name` (string) will be the school name to update
+- `topics` (list of strings) will be the list of topics approached in the school
 
+```bash
 guillaume@ubuntu:~/0x01$ cat 10-main.py
 #!/usr/bin/env python3
 """ 10-main """
@@ -435,16 +429,16 @@ guillaume@ubuntu:~/0x01$ ./10-main.py
 [5a8f60cfd4321e1403ba7aba] UCSD
 [5a8f60cfd4321e1403ba7ab9] Holberton school ['iOS']
 guillaume@ubuntu:~/0x01$
+```
 
- Done! Check your code  Get a sandbox QA Review
-11. Where can I learn Python? mandatory
-
-Write a Python function that returns the list of school having a specific topic:
 Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x01-NoSQL
 File: `10-update_topics.py`
 
+### 11. Where can I learn Python? mandatory
+
+Write a Python function that returns the list of school having a specific topic:
 
 - Prototype: `def schools_by_topic(mongo_collection, topic):`
 - `mongo_collection` will be the `pymongo` collection object
