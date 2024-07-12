@@ -253,15 +253,17 @@ Score: 100.0% (Checks completed: 100.0%)
 Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x01-NoSQL
-File: 5-count 
-(/)
+File: `5-count`
 
-6. Update mandatory
+### 6. Update
 
-Write a script that adds a new attribute to a document in the collection school :
-The script should update only document with name="Holberton school" (all of them)
-The update should add the attribute address with the value “972 Mission street”
-The database name will be passed as option of mongo command
+Write a script that adds a new attribute to a document in the collection `school` :
+
+- The script should update only document with `name="Holberton school"` (all of them)
+- The update should add the attribute `address` with the value “972 Mission street”
+- The database name will be passed as option of `mongo` command
+
+```bash
 guillaume@ubuntu:~/0x01$ cat 6-update | mongo my_db
 MongoDB shell version v3.6.3
 connecting to: mongodb://127.0.0.1:27017/my_db
@@ -277,26 +279,19 @@ MongoDB server version: 3.6.3
 2 Mission street" }
 bye
 guillaume@ubuntu:~/0x01$
-
- Done! Check your code  Get a sandbox QA Review
-
-7. Delete by match mandatory
-
-Write a script that deletes all documents with name="Holberton school" in the collection school :
-The database name will be passed as option of mongo command
-Score: 100.0% (Checks completed: 100.0%)
+```
 
 Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x01-NoSQL
-File: 6-update
+File: `6-update`
 
-Score: 100.0% (Checks completed: 100.0%)
+### 7. Delete by match
 
-
+Write a script that deletes all documents with `name="Holberton school"` in the collection `school` :
+- The database name will be passed as option of `mongo` command
 
-(/)
-
+```bash
 guillaume@ubuntu:~/0x01$ cat 7-delete | mongo my_db
 MongoDB shell version v3.6.3
 connecting to: mongodb://127.0.0.1:27017/my_db
