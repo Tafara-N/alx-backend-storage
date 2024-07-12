@@ -11,7 +11,7 @@
 - [Mongosh]()
 
 # Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyon](), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](), **without the help of Google:**
 
 ## General
 - What NoSQL means
