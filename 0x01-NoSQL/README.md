@@ -129,7 +129,7 @@ guillaume@ubuntu:~/0x01$
 
 Repo:
 - GitHub repository: `alx-backend-storage`
-Directory: 0x01-NoSQL
+- Directory: `0x01-NoSQL`
 File: `0-list_databases`
 
 ### 1. Create a database
@@ -158,7 +158,7 @@ guillaume@ubuntu:~/0x01$
 
 Repo:
 - GitHub repository: `alx-backend-storage`
-Directory: 0x01-NoSQL
+- Directory: `0x01-NoSQL`
 File: `1-use_or_create_database`
 
 ### 2. Insert document mandatory
@@ -180,7 +180,7 @@ guillaume@ubuntu:~/0x01$
 
 Repo:
 - GitHub repository: `alx-backend-storage`
-Directory: 0x01-NoSQL
+- Directory: `0x01-NoSQL`
 File: `2-insert`
 
 ### 3. All documents mandatory
@@ -201,7 +201,7 @@ guillaume@ubuntu:~/0x01$
 
 Repo:
 - GitHub repository: `alx-backend-storage`
-Directory: 0x01-NoSQL
+- Directory: `0x01-NoSQL`
 File: `3-all`
 
 
@@ -223,7 +223,7 @@ guillaume@ubuntu:~/0x01$
 
 Repo:
 - GitHub repository: `alx-backend-storage`
-Directory: 0x01-NoSQL
+- Directory: `0x01-NoSQL`
 File: `4-match`
 
 ### 5. Count
@@ -244,7 +244,7 @@ guillaume@ubuntu:~/0x01$
 
 Repo:
 - GitHub repository: `alx-backend-storage`
-Directory: 0x01-NoSQL
+- Directory: `0x01-NoSQL`
 File: `5-count`
 
 ### 6. Update
@@ -275,7 +275,7 @@ guillaume@ubuntu:~/0x01$
 
 Repo:
 - GitHub repository: `alx-backend-storage`
-Directory: 0x01-NoSQL
+- Directory: `0x01-NoSQL`
 File: `6-update`
 
 ### 7. Delete by match
@@ -301,7 +301,7 @@ guillaume@ubuntu:~/0x01$
 
 Repo:
 - GitHub repository: `alx-backend-storage`
-Directory: 0x01-NoSQL
+- Directory: `0x01-NoSQL`
 File: `7-delete`
 
 ### 8. List all documents in Python
@@ -333,7 +333,7 @@ guillaume@ubuntu:~/0x01$
 
 Repo:
 - GitHub repository: `alx-backend-storage`
-Directory: 0x01-NoSQL
+- Directory: `0x01-NoSQL`
 File: `8-all.py`
 
 ### 9. Insert a document in Python
@@ -372,7 +372,7 @@ guillaume@ubuntu:~/0x01$
 
 Repo:
 - GitHub repository: `alx-backend-storage`
-Directory: 0x01-NoSQL
+- Directory: `0x01-NoSQL`
 File: `9-insert_school.py`
 
 ### 10. Change school topics
@@ -417,7 +417,7 @@ guillaume@ubuntu:~/0x01$
 
 Repo:
 - GitHub repository: `alx-backend-storage`
-Directory: 0x01-NoSQL
+- Directory: `0x01-NoSQL`
 File: `10-update_topics.py`
 
 ### 11. Where can I learn Python? mandatory
@@ -461,7 +461,7 @@ guillaume@ubuntu:~/0x01$
 
 Repo:
 - GitHub repository: `alx-backend-storage`
-Directory: 0x01-NoSQL
+- Directory: `0x01-NoSQL`
 File: `11-schools_by_topic.py`
 
 ### 12. Log stats
@@ -535,7 +535,7 @@ guillaume@ubuntu:~/0x01$
 
 Repo:
 - GitHub repository: `alx-backend-storage`
-Directory: 0x01-NoSQL
+- Directory: `0x01-NoSQL`
 File: `12-log_stats.py`
 
 ### 13. Regex filter
@@ -557,7 +557,7 @@ guillaume@ubuntu:~/0x01$
 
 Repo:
 - GitHub repository: `alx-backend-storage`
-Directory: 0x01-NoSQL
+- Directory: `0x01-NoSQL`
 File: `100-find`
 
 ### 14. Top students
@@ -624,7 +624,7 @@ guillaume@ubuntu:~/0x01$
 
 Repo:
 - GitHub repository: `alx-backend-storage`
-Directory: 0x01-NoSQL
+- Directory: `0x01-NoSQL`
 File: `101-students.py`
 
 ### 15. Log stats - new version #advanced
@@ -659,5 +659,5 @@ guillaume@ubuntu:~/0x01$
 
 Repo:
 - GitHub repository: `alx-backend-storage`
-Directory: 0x01-NoSQL
+- Directory: `0x01-NoSQL`
 File: `102-log_stats.py`
