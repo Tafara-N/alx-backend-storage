@@ -354,7 +354,7 @@ File: `8-all.py`
 
 ### 9. Insert a document in Python
 
-Write a Python function that inserts a new document in a collection based on kwargs :
+Write a Python function that inserts a new document in a collection based on `kwargs` :
 
 - Prototype: `def insert_school(mongo_collection, **kwargs):`
 - `mongo_collection` will be the `pymongo` collection object
