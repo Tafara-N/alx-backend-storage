@@ -7,8 +7,8 @@
 - [MongoDB Tutorial 2 : Insert, Update, Remove, Query]()
 - [Aggregation (/rltoken/ziEDeniRobC6owPE1_avAQ)
 - [Introduction to MongoDB and Python (/rltoken/axwwF4CjO7FnK8Ecochqnw)
-- [mongo Shell Methods (/rltoken/lUqnLwOHbbp9FK39ijNmDQ)
-- [Mongosh (/rltoken/ipHIVVmAsezINqpk7W0eow)
+- [mongo Shell Methods]()
+- [Mongosh]()
 
 # Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone
