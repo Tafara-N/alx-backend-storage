@@ -508,13 +508,11 @@ one line with the number of documents with:
 method=GET
 path=/status
 
-You can use this dump as data sample: dump.zip (/rltoken/0szbpslKvH3RqKb_2HUeoQ)
-The output of your script must be exactly the same as the example
+You can use this dump as data sample: [dump.zip]()
 
-
+The output of your script **must be exactly the same as the example**
 
-(/)
-
+```bash
 guillaume@ubuntu:~/0x01$ curl -o dump.zip -s "https://s3.amazonaws.com/intranet-projects-fil
 es/holbertonschool-webstack/411/dump.zip"
 guillaume@ubuntu:~/0x01$
@@ -564,6 +562,7 @@ method PATCH: 0
 method DELETE: 0
 47415 status check
 guillaume@ubuntu:~/0x01$
+```
 
 Repo:
 GitHub repository: alx-backend-storage
