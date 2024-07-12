@@ -127,7 +127,7 @@ bye
 guillaume@ubuntu:~/0x01$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-storage`
 - Directory: `0x01-NoSQL`
 File: `0-list_databases`
@@ -156,7 +156,7 @@ bye
 guillaume@ubuntu:~/0x01$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-storage`
 - Directory: `0x01-NoSQL`
 File: `1-use_or_create_database`
@@ -178,7 +178,7 @@ bye
 guillaume@ubuntu:~/0x01$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-storage`
 - Directory: `0x01-NoSQL`
 File: `2-insert`
@@ -199,7 +199,7 @@ bye
 guillaume@ubuntu:~/0x01$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-storage`
 - Directory: `0x01-NoSQL`
 File: `3-all`
@@ -221,7 +221,7 @@ bye
 guillaume@ubuntu:~/0x01$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-storage`
 - Directory: `0x01-NoSQL`
 File: `4-match`
@@ -242,7 +242,7 @@ bye
 guillaume@ubuntu:~/0x01$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-storage`
 - Directory: `0x01-NoSQL`
 File: `5-count`
@@ -273,7 +273,7 @@ bye
 guillaume@ubuntu:~/0x01$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-storage`
 - Directory: `0x01-NoSQL`
 File: `6-update`
@@ -299,7 +299,7 @@ bye
 guillaume@ubuntu:~/0x01$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-storage`
 - Directory: `0x01-NoSQL`
 File: `7-delete`
@@ -331,7 +331,7 @@ guillaume@ubuntu:~/0x01$ ./8-main.py
 guillaume@ubuntu:~/0x01$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-storage`
 - Directory: `0x01-NoSQL`
 File: `8-all.py`
@@ -370,7 +370,7 @@ New school created: 5a8f60cfd4321e1403ba7abb
 guillaume@ubuntu:~/0x01$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-storage`
 - Directory: `0x01-NoSQL`
 File: `9-insert_school.py`
@@ -415,7 +415,7 @@ guillaume@ubuntu:~/0x01$ ./10-main.py
 guillaume@ubuntu:~/0x01$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-storage`
 - Directory: `0x01-NoSQL`
 File: `10-update_topics.py`
@@ -459,7 +459,7 @@ guillaume@ubuntu:~/0x01$ ./11-main.py
 guillaume@ubuntu:~/0x01$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-storage`
 - Directory: `0x01-NoSQL`
 File: `11-schools_by_topic.py`
@@ -533,7 +533,7 @@ method DELETE: 0
 guillaume@ubuntu:~/0x01$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-storage`
 - Directory: `0x01-NoSQL`
 File: `12-log_stats.py`
@@ -555,7 +555,7 @@ bye
 guillaume@ubuntu:~/0x01$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-storage`
 - Directory: `0x01-NoSQL`
 File: `100-find`
@@ -622,7 +622,7 @@ e': 10.2}, {'title': 'Python', 'score': 10.1}]
 guillaume@ubuntu:~/0x01$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-storage`
 - Directory: `0x01-NoSQL`
 File: `101-students.py`
@@ -657,7 +657,7 @@ IPs:
 guillaume@ubuntu:~/0x01$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-storage`
 - Directory: `0x01-NoSQL`
 File: `102-log_stats.py`
