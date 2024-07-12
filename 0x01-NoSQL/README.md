@@ -42,7 +42,8 @@ At the end of this project, you are expected to be able to [explain to anyon](),
 - The length of your files will be tested using `wc`
 - All your modules should have a documentation ( `python3 -c 'print(__import__("my_module").__doc__)'` )
 - All your functions should have a documentation ( `python3 -c 'print(__import__("my_module").my_function.__doc__)'`)
-Your code should not be executed when imported (by using if __name__ == "__main__" :)
-More Info
-Install MongoDB 4.2 in Ubuntu 18.04
-Official installation guide (/rltoken/8p4x14Ddn1UxKXZ5nPt3zA)
+- Your code should not be executed when imported (by using `if __name__ == "__main__" :`)
+# More Info
+
+## Install MongoDB 4.2 in Ubuntu 18.04
+- [Official installation guide]()
