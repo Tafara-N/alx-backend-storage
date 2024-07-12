@@ -1,6 +1,6 @@
 # Resources
 
-Read or watch:
+**Read or watch:**
 NoSQL Databases Explained (/rltoken/wweK7dOY4pf8haCqv9Iv6Q)
 What is NoSQL ? (/rltoken/QqqNmgzgwopHBv305ki6bg)
 MongoDB with Python Crash Course - Tutorial for Beginners
