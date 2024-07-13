@@ -1,0 +1,11 @@
+// Script that inserts a document in the collection 'school'
+
+use my_db;
+
+db.createCollection("school");
+
+db.school.insertOne(
+	{
+		name: "Holberton school"
+	}
+);
