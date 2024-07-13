@@ -331,6 +331,7 @@ if __name__ == "__main__":
 
     for school in schools:
         print("[{}] {}".format(school.get('_id'), school.get('name')))
+
 guillaume@ubuntu:~/0x01$
 guillaume@ubuntu:~/0x01$ ./8-main.py
 [5a8f60cfd4321e1403ba7ab9] Holberton school
@@ -372,7 +373,7 @@ if __name__ == "__main__":
 
     for school in schools:
         print("[{}] {} {}".format(school.get('_id'), school.get('name'), school.get('address', "")))
-        
+
 guillaume@ubuntu:~/0x01$
 guillaume@ubuntu:~/0x01$ ./9-main.py
 New school created: 5a8f60cfd4321e1403ba7abb
