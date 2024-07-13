@@ -440,7 +440,7 @@ guillaume@ubuntu:~/0x01$
 - Directory: `0x01-NoSQL`
 - File: `10-update_topics.py`
 
-### 11. Where can I learn Python? mandatory
+### 11. Where can I learn Python?
 
 Write a Python function that returns the list of school having a specific topic:
 
