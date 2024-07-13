@@ -316,15 +316,21 @@ Write a Python function that lists all documents in a collection:
 ```bash
 guillaume@ubuntu:~/0x01$ cat 8-main.py
 #!/usr/bin/env python3
+
 """ 8-main """
+
 from pymongo import MongoClient
+
+
 list_all = __import__('8-all').list_all
+
 if __name__ == "__main__":
-client = MongoClient('mongodb://127.0.0.1:27017')
-school_collection = client.my_db.school
-schools = list_all(school_collection)
-for school in schools:
-print("[{}] {}".format(school.get('_id'), school.get('name')))
+    client = MongoClient('mongodb://127.0.0.1:27017')
+    school_collection = client.my_db.school
+    schools = list_all(school_collection)
+
+    for school in schools:
+        print("[{}] {}".format(school.get('_id'), school.get('name')))
 guillaume@ubuntu:~/0x01$
 guillaume@ubuntu:~/0x01$ ./8-main.py
 [5a8f60cfd4321e1403ba7ab9] Holberton school
