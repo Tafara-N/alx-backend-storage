@@ -183,7 +183,7 @@ guillaume@ubuntu:~/0x01$
 - Directory: `0x01-NoSQL`
 - File: `2-insert`
 
-### 3. All documents mandatory
+### 3. All documents
 
 Write a script that lists all documents in the collection `school` :
 
