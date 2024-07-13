@@ -4,16 +4,14 @@
 Function that lists all documents in a MongoDB collection.
 """
 
-import pymongo
-
-
 def list_all(mongo_collection):
     """
     Parameters
-        mongo_collection: A list of MongoDB collections
+        mongo_collection: pymongo collection object
 
     Return
-        An empty list if no document in the collection
+        List of documents in the collection, otherwise an empty list if no
+        document is found.
     """
 
-    pass
+    return [document for document in mongo_collection.find()]
