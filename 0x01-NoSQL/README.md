@@ -161,7 +161,7 @@ guillaume@ubuntu:~/0x01$
 - Directory: `0x01-NoSQL`
 - File: `1-use_or_create_database`
 
-### 2. Insert document mandatory
+### 2. Insert document
 
 Write a script that inserts a document in the collection `school` :
 
