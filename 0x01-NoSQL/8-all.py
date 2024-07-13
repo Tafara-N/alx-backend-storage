@@ -4,6 +4,7 @@
 Function that lists all documents in a MongoDB collection.
 """
 
+
 def list_all(mongo_collection):
     """
     Parameters
