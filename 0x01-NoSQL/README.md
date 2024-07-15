@@ -1,7 +1,7 @@
 # Resources
 
 **Read or watch:**
-- [NoSQL Databases Explained]()
+- [NoSQL Databases Explained](https://intranet.alxswe.com/rltoken/wweK7dOY4pf8haCqv9Iv6Q)
 - [What is NoSQL ?]()
 - [MongoDB with Python Crash Course - Tutorial for Beginners]()
 - [MongoDB Tutorial 2 : Insert, Update, Remove, Query]()
