@@ -2,12 +2,15 @@
 //	only document with `name="Holberton school"` (all of them)
 //	adds the attribute `address` with the value “972 Mission street”
 
-db.school.updateOne(
+db.school.update(
     {
         name: "Holberton school"
     },
     {$set: {
         address: "972 Mission Street"
         }
-    }
+  },
+  {
+    multi: true
+  }
 );
