@@ -2,7 +2,7 @@
 
 **Read or watch:**
 - [NoSQL Databases Explained](https://intranet.alxswe.com/rltoken/wweK7dOY4pf8haCqv9Iv6Q)
-- [What is NoSQL ?]()
+- [What is NoSQL ?](https://intranet.alxswe.com/rltoken/QqqNmgzgwopHBv305ki6bg)
 - [MongoDB with Python Crash Course - Tutorial for Beginners]()
 - [MongoDB Tutorial 2 : Insert, Update, Remove, Query]()
 - [Aggregation]()
