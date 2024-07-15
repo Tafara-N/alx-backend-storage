@@ -787,7 +787,7 @@ guillaume@ubuntu:~/0x01$
 
 ### 13. Regex filter
 
-Write a script that lists all documents with name starting by Holberton in the collection `school` :
+Write a script that lists all documents with `name` starting by `Holberton` in the collection `school` :
 
 - The database name will be passed as option of `mongo` command
 
