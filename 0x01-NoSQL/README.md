@@ -77,7 +77,7 @@ $ python3
 '3.10.1'
 ```
 
-Potential issue if documents creation doesn’t work or this error: Data directory `/data/db` not found., `terminating` (source (/rltoken/as8vd5VBnj4VDz5EINszMg) and source (/rltoken/9Df5v1NcWFFCn_sRNgsJUg))
+Potential issue if documents creation doesn’t work or this error: `Data directory /data/db not found., terminating` ([source](https://intranet.alxswe.com/rltoken/as8vd5VBnj4VDz5EINszMg) and [source](https://intranet.alxswe.com/rltoken/9Df5v1NcWFFCn_sRNgsJUg))
 
 ```bash
 $ sudo mkdir -p /data/db
