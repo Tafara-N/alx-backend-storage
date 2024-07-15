@@ -43,6 +43,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - All your modules should have a documentation ( `python3 -c 'print(__import__("my_module").__doc__)'` )
 - All your functions should have a documentation ( `python3 -c 'print(__import__("my_module").my_function.__doc__)'`)
 - Your code should not be executed when imported (by using `if __name__ == "__main__" :`)
+
 # More Info
 
 ## Install MongoDB 4.2 in Ubuntu 18.04
