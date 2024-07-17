@@ -91,15 +91,15 @@ def replay(fn: Callable):
 
         inputs = [
             i.decode("utf-8") if isinstance(i, bytes) else ""
-            for i in rds.lrange(function_name + ":inputs", 0, -1)  # noqa: F821
+            for i in rds.lrange(function_name + ":inputs", 0, -1)  # type: ignore
         ]
         outputs = [
             o.decode("utf-8") if isinstance(o, bytes) else ""
-            for o in rds.lrange(function_name + ":outputs", 0, -1)  # noqa: F821
+            for o in rds.lrange(function_name + ":outputs", 0, -1)  # type: ignore
         ]
 
         for i, o in zip(inputs, outputs):
-            print(f"{function_name}(*{i}) -> {o}")  # noqa: F821
+            print(f"{function_name}(*{i}) -> {o}")  # type: ignore
 
 
 class Cache:
@@ -135,7 +135,7 @@ class Cache:
         return key
 
     def get(self, key: str, fn: Callable = None) -> Union[str, bytes,
-                                                          int, float]:
+                                                          int, float]:  # type: ignore
         """
         Reading from Redis and recovering original type
 
@@ -147,9 +147,8 @@ class Cache:
             data: Union[str, bytes, int, float]
         """
 
-        if fn:
-            return fn(self._redis.get(key))
-        return self._redis.get(key)
+        key_value = self._redis.get(key)
+        return fn(key_value) if fn is not None else key_value
 
     def get_str(self, key: str) -> str:
         """
@@ -162,7 +161,7 @@ class Cache:
             str: string
         """
 
-        return self.get(key, str)
+        return self.get(key, lambda x: x.decode("utf-8"))  # type: ignore
 
     def get_int(self, key: str) -> int:
         """
@@ -175,4 +174,4 @@ class Cache:
             int: integer
         """
 
-        return self.get(key, int)
+        return self.get(key, lambda x: int(x))  # type: ignore
