@@ -2,7 +2,7 @@
 
 **Read or watch:**
 - [Redis Crash Course Tutorial](https://intranet.alxswe.com/rltoken/hJVo3XwMMFFoApyX8zPXvA)
-- [Redis commands]()
+- [Redis commands](https://intranet.alxswe.com/rltoken/oauvbRmxM12SxvimzqhrOg)
 - [Redis python client]()
 - [How to Use Redis With Python]()
 
