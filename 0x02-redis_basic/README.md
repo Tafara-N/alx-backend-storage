@@ -153,6 +153,7 @@ Execute the wrapped function to retrieve the output. Store the output using rpus
 
 Decorate Cache.store with call_history.
 
+```bash
 bob@dylan:~$ cat main.py
 #!/usr/bin/env python3
 """ Main file """
@@ -181,11 +182,12 @@ a160a8a8-06dc-4934-8e95-df0cb839644b
 inputs: [b"('first',)", b"('secont',)", b"('third',)"]
 outputs: [b'04f8dcaa-d354-4221-87f3-4923393a25ad', b'a160a8a8-06dc-4934-8e95-df0cb839644b', b'15a8fd87-1f55-4059-86aa-9d1a0d4f2aea']
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-storage
 Directory: 0x02-redis_basic
-File: exercise.py
+File: `exercise.py`
 
 ### 4. Retrieving lists
 
