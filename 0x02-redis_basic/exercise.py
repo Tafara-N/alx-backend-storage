@@ -22,7 +22,7 @@ def call_history(method: Callable) -> Callable:
         Callable: The decorated method
     """
 
-    key = method.__qualname__  # type: ignore
+    key = method.__qualname__
 
     @wraps(method)
     def wrapper(self, *args, **kwargs):
@@ -86,20 +86,20 @@ def replay(fn: Callable):
 
     with redis.Redis() as rds:
         fuction_name = fn.__qualname__  # noqa: F841
-        number_of_calls = int(rds.get(function_name) or 0)  # noqa: F821
-        print(f"{function_name} was called {number_of_calls} times:")  # noqa: F821
+        number_of_calls = int(rds.get(function_name) or 0)
+        print(f"{function_name} was called {number_of_calls} times:")
 
         inputs = [
             i.decode("utf-8") if isinstance(i, bytes) else ""
-            for i in rds.lrange(function_name + ":inputs", 0, -1)  # type: ignore
+            for i in rds.lrange(function_name + ":inputs", 0, -1)
         ]
         outputs = [
             o.decode("utf-8") if isinstance(o, bytes) else ""
-            for o in rds.lrange(function_name + ":outputs", 0, -1)  # type: ignore
+            for o in rds.lrange(function_name + ":outputs", 0, -1)
         ]
 
         for i, o in zip(inputs, outputs):
-            print(f"{function_name}(*{i}) -> {o}")  # type: ignore
+            print(f"{function_name}(*{i}) -> {o}")  
 
 
 class Cache:
@@ -135,7 +135,7 @@ class Cache:
         return key
 
     def get(self, key: str, fn: Callable = None) -> Union[str, bytes,
-                                                          int, float]:  # type: ignore
+                                                          int, float]:
         """
         Reading from Redis and recovering original type
 
@@ -161,7 +161,7 @@ class Cache:
             str: string
         """
 
-        return self.get(key, lambda x: x.decode("utf-8"))  # type: ignore
+        return self.get(key, lambda x: x.decode("utf-8"))
 
     def get_int(self, key: str) -> int:
         """
@@ -174,4 +174,4 @@ class Cache:
             int: integer
         """
 
-        return self.get(key, lambda x: int(x))  # type: ignore
+        return self.get(key, lambda x: int(x))
