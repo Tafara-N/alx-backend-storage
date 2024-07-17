@@ -4,10 +4,10 @@
 Writing and Reading to/from Redis and recovering original type
 """
 
-import redis
 import uuid
-
 from typing import Callable, Union
+
+import redis
 
 
 class Cache():
