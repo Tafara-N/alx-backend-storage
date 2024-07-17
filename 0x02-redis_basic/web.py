@@ -12,6 +12,7 @@ from functools import wraps
 
 store = redis.Redis()
 
+
 def count_url_usage(method):
     """
     Decorator function to count URL usage and cache the data
