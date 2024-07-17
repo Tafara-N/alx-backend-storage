@@ -1,3 +1,5 @@
+![Redis is a fancy Hash Table!!](40eab4627f1bea7dfe5e.png)
+
 # Resources
 
 **Read or watch:**
