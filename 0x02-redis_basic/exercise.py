@@ -30,7 +30,7 @@ class Cache():
             data: Union[str, bytes, int, float] - data to store
 
         Return
-            A string
+            str(uuid.uuid4()): str - key
         """
 
         key = str(uuid.uuid4())
