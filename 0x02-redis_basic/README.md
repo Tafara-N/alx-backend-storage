@@ -135,23 +135,23 @@ GitHub repository: alx-backend-storage
 Directory: 0x02-redis_basic
 File: exercise.py
 
-3. Storing lists
-mandatory
-Familiarize yourself with redis commands RPUSH, LPUSH, LRANGE, etc.
+### 3. Storing lists
 
-In this task, we will define a call_history decorator to store the history of inputs and outputs for a particular function.
+Familiarize yourself with redis commands `RPUSH`, `LPUSH`, `LRANGE`, etc.
+
+In this task, we will define a `call_history` decorator to store the history of inputs and outputs for a particular function.
 
 Everytime the original function will be called, we will add its input parameters to one list in redis, and store its output into another list.
 
-In call_history, use the decorated function’s qualified name and append ":inputs" and ":outputs" to create input and output list keys, respectively.
+In `call_history`, use the decorated function’s qualified name and append `":inputs"` and `":outputs"` to create input and output list keys, respectively.
 
-call_history has a single parameter named method that is a Callable and returns a Callable.
+`call_history` has a single parameter named method that is a `Callable` and returns a `Callable`.
 
-In the new function that the decorator will return, use rpush to append the input arguments. Remember that Redis can only store strings, bytes and numbers. Therefore, we can simply use str(args) to normalize. We can ignore potential kwargs for now.
+In the new function that the decorator will return, use `rpush` to append the input arguments. Remember that Redis can only store strings, bytes and numbers. Therefore, we can simply use `str(args)` to normalize. We can ignore potential `kwargs` for now.
 
-Execute the wrapped function to retrieve the output. Store the output using rpush in the "...:outputs" list, then return the output.
+Execute the wrapped function to retrieve the output. Store the output using `rpush` in the `"...:outputs"` list, then return the output.
 
-Decorate Cache.store with call_history.
+Decorate `Cache.store` with `call_history`.
 
 ```bash
 bob@dylan:~$ cat main.py
