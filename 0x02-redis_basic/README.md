@@ -1,7 +1,7 @@
 # Resources
 
 **Read or watch:**
-- [Redis Crash Course Tutorial]()
+- [Redis Crash Course Tutorial](https://intranet.alxswe.com/rltoken/hJVo3XwMMFFoApyX8zPXvA)
 - [Redis commands]()
 - [Redis python client]()
 - [How to Use Redis With Python]()
