@@ -1,7 +1,7 @@
-Resources
-Read or watch:
+# Resources
 
-Redis Crash Course Tutorial
+**Read or watch:**
+- ]Redis Crash Course Tutorial
 Redis commands
 Redis python client
 How to Use Redis With Python
