@@ -187,12 +187,13 @@ GitHub repository: alx-backend-storage
 Directory: 0x02-redis_basic
 File: exercise.py
 
-4. Retrieving lists
-mandatory
-In this tasks, we will implement a replay function to display the history of calls of a particular function.
+### 4. Retrieving lists
+
+In this tasks, we will implement a `replay` function to display the history of calls of a particular function.
 
 Use keys generated in previous tasks to generate the following output:
 
+```python
 >>> cache = Cache()
 >>> cache.store("foo")
 >>> cache.store("bar")
@@ -202,13 +203,14 @@ Cache.store was called 3 times:
 Cache.store(*('foo',)) -> 13bf32a9-a249-4664-95fc-b1062db2038f
 Cache.store(*('bar',)) -> dcddd00c-4219-4dd7-8877-66afbe8e7df8
 Cache.store(*(42,)) -> 5e752f2b-ecd8-4925-a3ce-e2efdee08d20
-Tip: use lrange and zip to loop over inputs and outputs.
+```
+
+Tip: use `lrange` and `zip` to loop over inputs and outputs.
 
 Repo:
-
 GitHub repository: alx-backend-storage
 Directory: 0x02-redis_basic
-File: exercise.py
+File: `exercise.py`
 
 ### 5. Implementing an expiring web cache and tracker
 
