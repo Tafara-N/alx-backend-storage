@@ -92,9 +92,9 @@ GitHub repository: alx-backend-storage
 Directory: 0x02-redis_basic
 File: exercise.py
 
-2. Incrementing values
-mandatory
-Familiarize yourself with the INCR command and its python equivalent.
+### 2. Incrementing values
+
+Familiarize yourself with the `INCR` command and its python equivalent.
 
 In this task, we will implement a system to count how many times methods of the `Cache` class are called.
 
