@@ -1,4 +1,4 @@
-![Redis is a fancy Hash Table!!](40eab4627f1bea7dfe5e.png)
+![Redis is a fancy Hash Table!!](redis_is_fancy_hash_table.png)
 
 # Resources
 
