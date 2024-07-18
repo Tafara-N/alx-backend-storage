@@ -73,7 +73,7 @@ bob@dylan:~$
 
 Repo:
 GitHub repository: alx-backend-storage
-Directory: 0x02-redis_basic
+- Directory: `0x02-redis_basic`
 File: `exercise.py`
 
 ### 1. Reading from Redis and recovering original type
@@ -103,7 +103,7 @@ for value, fn in TEST_CASES.items():
 
 Repo:
 GitHub repository: alx-backend-storage
-Directory: 0x02-redis_basic
+- Directory: `0x02-redis_basic`
 File: `exercise.py`
 
 ### 2. Incrementing values
@@ -148,7 +148,7 @@ bob@dylan:~$
 
 Repo:
 GitHub repository: alx-backend-storage
-Directory: 0x02-redis_basic
+- Directory: `0x02-redis_basic`
 File: `exercise.py`
 
 ### 3. Storing lists
@@ -202,7 +202,7 @@ bob@dylan:~$
 
 Repo:
 GitHub repository: alx-backend-storage
-Directory: 0x02-redis_basic
+- Directory: `0x02-redis_basic`
 File: `exercise.py`
 
 ### 4. Retrieving lists
@@ -227,7 +227,7 @@ Tip: use `lrange` and `zip` to loop over inputs and outputs.
 
 Repo:
 GitHub repository: alx-backend-storage
-Directory: 0x02-redis_basic
+- Directory: `0x02-redis_basic`
 File: `exercise.py`
 
 ### 5. Implementing an expiring web cache and tracker
@@ -244,5 +244,5 @@ Bonus: implement this use case with decorators.
 
 Repo:
 GitHub repository: alx-backend-storage
-Directory: 0x02-redis_basic
+- Directory: `0x02-redis_basic`
 File: `web.py`
