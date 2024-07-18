@@ -72,7 +72,7 @@ bob@dylan:~$
 ```
 
 Repo:
-GitHub repository: alx-backend-storage
+- GitHub repository: `alx-backend-storage`
 - Directory: `0x02-redis_basic`
 File: `exercise.py`
 
@@ -102,7 +102,7 @@ for value, fn in TEST_CASES.items():
 ```
 
 Repo:
-GitHub repository: alx-backend-storage
+- GitHub repository: `alx-backend-storage`
 - Directory: `0x02-redis_basic`
 File: `exercise.py`
 
@@ -147,7 +147,7 @@ bob@dylan:~$
 ```
 
 Repo:
-GitHub repository: alx-backend-storage
+- GitHub repository: `alx-backend-storage`
 - Directory: `0x02-redis_basic`
 File: `exercise.py`
 
@@ -201,7 +201,7 @@ bob@dylan:~$
 ```
 
 Repo:
-GitHub repository: alx-backend-storage
+- GitHub repository: `alx-backend-storage`
 - Directory: `0x02-redis_basic`
 File: `exercise.py`
 
@@ -226,7 +226,7 @@ Cache.store(*(42,)) -> 5e752f2b-ecd8-4925-a3ce-e2efdee08d20
 Tip: use `lrange` and `zip` to loop over inputs and outputs.
 
 Repo:
-GitHub repository: alx-backend-storage
+- GitHub repository: `alx-backend-storage`
 - Directory: `0x02-redis_basic`
 File: `exercise.py`
 
@@ -243,6 +243,6 @@ Tip: Use `http://slowwly.robertomurray.co.uk` to simulate a slow response and te
 Bonus: implement this use case with decorators.
 
 Repo:
-GitHub repository: alx-backend-storage
+- GitHub repository: `alx-backend-storage`
 - Directory: `0x02-redis_basic`
 File: `web.py`
