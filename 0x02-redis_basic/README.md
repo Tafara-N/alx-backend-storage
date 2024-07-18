@@ -89,6 +89,7 @@ Also, implement 2 new methods: get_str and get_int that will automatically param
 
 The following code should not raise:
 
+```python
 cache = Cache()
 
 TEST_CASES = {
