@@ -2,6 +2,8 @@
 
 *For this project, we expect you to look at this concept:*
 
+# MySQL
+
 - [Advanced SQL](https://intranet.alxswe.com/concepts/555)
 
 ## Resources
@@ -95,3 +97,5 @@ id  name
 8   Thriller
 $
 ```
+
+# NoSQL
