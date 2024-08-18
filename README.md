@@ -114,7 +114,7 @@ id  name
 $
 ```
 
-# NoSQL
+2. # NoSQL
 
 # Resources
 
@@ -462,7 +462,7 @@ bye
 $
 ```
 
-# Redis
+3. # Redis
 
 ![Redis is a fancy Hash Table!!](redis_is_fancy_hash_table.png)
 
