@@ -635,7 +635,7 @@ Write a SQL script that creates an index `idx_name_first` on the table names and
 
 **Requirements:**
 
-- Import this table dump: [names.sql.zip](dumps/names.sql.zip)
+- Import this table dump: [names.sql.zip](dumps/names.sql.tar.xz)
 - Only the first letter of name must be indexed
 
 **Context:** *Index is not the solution for any performance issue, but well used, it’s really powerful!*
@@ -694,7 +694,7 @@ Write a SQL script that creates an index `idx_name_first_score` on the table nam
 
 **Requirements:**
 
-- Import this table dump: [names.sql.zip](dumps/names.sql.zip)
+- Import this table dump: [names.sql.zip](dumps/names.sql.tar.xz)
 - Only the first letter of name AND score must be indexed
 
 ```bash
