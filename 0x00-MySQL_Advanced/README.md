@@ -191,8 +191,8 @@ Write a SQL script that ranks country origins of bands, ordered by the number of
 
 **Requirements:**
 
-- Import this table dump: [metal_bands.sql.zip](https://intranet.alxswe.com/rltoken/uPn947gnZLaa0FJrrAFTGQ)
-- Column names must be: origin and nb_fans
+- Import this table dump: [metal_bands.sql.zip](dumps/metal_bands.sql.zip)
+- Column names must be: `origin` and `nb_fans`
 - Your script can be executed on any database
 
 **Context:** *Calculate/compute something is always power intensive… better to distribute the load!*
@@ -227,7 +227,7 @@ Write a SQL script that lists all bands with `Glam rock` as their main style, ra
 
 **Requirements:**
 
-- Import this table dump: [metal_bands.sql.zip](https://intranet.alxswe.com/rltoken/uPn947gnZLaa0FJrrAFTGQ)
+- Import this table dump: [metal_bands.sql.zip](dumps/metal_bands.sql.zip)
 - Column names must be: `band_name` and `lifespan` (in years **until 2022** - please use `2022` instead of `YEAR(CURDATE())`)
 - You should use attributes `formed` and `split` for computing the `lifespan`
 - Your script can be executed on any database
@@ -635,7 +635,7 @@ Write a SQL script that creates an index `idx_name_first` on the table names and
 
 **Requirements:**
 
-- Import this table dump: [names.sql.zip](https://intranet.alxswe.com/rltoken/BluyCCIIfw0NqcjqUiUdEw)
+- Import this table dump: [names.sql.zip](dumps/names.sql.zip)
 - Only the first letter of name must be indexed
 
 **Context:** *Index is not the solution for any performance issue, but well used, it’s really powerful!*
@@ -694,7 +694,7 @@ Write a SQL script that creates an index `idx_name_first_score` on the table nam
 
 **Requirements:**
 
-- Import this table dump: [names.sql.zip](https://intranet.alxswe.com/rltoken/BluyCCIIfw0NqcjqUiUdEw)
+- Import this table dump: [names.sql.zip](dumps/names.sql.zip)
 - Only the first letter of name AND score must be indexed
 
 ```bash
