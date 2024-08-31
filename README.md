@@ -469,10 +469,10 @@ $
 # Resources
 
 **Read or watch:**
-- [Redis Crash Course Tutorial](https://intranet.alxswe.com/rltoken/hJVo3XwMMFFoApyX8zPXvA)
-- [Redis commands](https://intranet.alxswe.com/rltoken/oauvbRmxM12SxvimzqhrOg)
-- [Redis python client](https://intranet.alxswe.com/rltoken/imfgFhAZPlg7YMZ_tHvFZw)
-- [How to Use Redis With Python](https://intranet.alxswe.com/rltoken/7SluvFvgckwVgsvrfOf1CQ)
+- [Redis Crash Course Tutorial](https://www.youtube.com/watch?v=Hbt56gFj998)
+- [Redis commands](https://redis.io/docs/latest/commands/)
+- [Redis python client](https://redis-py.readthedocs.io/en/stable/)
+- [How to Use Redis With Python](https://realpython.com/python-redis/)
 
 ## Learning Objectives
 - Learn how to use redis for basic operations
