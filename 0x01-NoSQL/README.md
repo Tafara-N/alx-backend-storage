@@ -1,17 +1,17 @@
 # Resources
 
 **Read or watch:**
-- [NoSQL Databases Explained](https://intranet.alxswe.com/rltoken/wweK7dOY4pf8haCqv9Iv6Q)
-- [What is NoSQL ?](https://intranet.alxswe.com/rltoken/QqqNmgzgwopHBv305ki6bg)
-- [MongoDB with Python Crash Course - Tutorial for Beginners](https://intranet.alxswe.com/rltoken/RyyP9OH1EMBWWYpTs4TqoA)
-- [MongoDB Tutorial 2 : Insert, Update, Remove, Query](https://intranet.alxswe.com/rltoken/9__3tR-NimgXlmjPQwTF-Q)
-- [Aggregation](https://intranet.alxswe.com/rltoken/ziEDeniRobC6owPE1_avAQ)
-- [Introduction to MongoDB and Python](https://intranet.alxswe.com/rltoken/axwwF4CjO7FnK8Ecochqnw)
-- [mongo Shell Methods](https://intranet.alxswe.com/rltoken/lUqnLwOHbbp9FK39ijNmDQ)
-- [Mongosh](https://intranet.alxswe.com/rltoken/ipHIVVmAsezINqpk7W0eow)
+- [NoSQL Databases Explained](https://riak.com/resources/nosql-databases/)
+- [What is NoSQL ?](https://www.youtube.com/watch?v=qUV2j3XBRHc)
+- [MongoDB with Python Crash Course - Tutorial for Beginners](https://www.youtube.com/watch?v=E-1xI85Zog8)
+- [MongoDB Tutorial 2 : Insert, Update, Remove, Query](https://www.youtube.com/watch?v=CB9G5Dvv-EE)
+- [Aggregation](https://www.mongodb.com/docs/manual/aggregation/)
+- [Introduction to MongoDB and Python](https://realpython.com/introduction-to-mongodb-and-python/)
+- [mongo Shell Methods](https://www.mongodb.com/docs/manual/reference/method/)
+- [Mongosh](https://www.mongodb.com/docs/mongodb-shell/#mongodb-binary-bin.mongosh)
 
 # Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/9u20uNESC1dnTNowO5waNQ), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
 ## General
 - What NoSQL means
@@ -48,7 +48,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ## Install MongoDB 4.2 in Ubuntu 18.04
 
-- [Official installation guide](https://intranet.alxswe.com/rltoken/8p4x14Ddn1UxKXZ5nPt3zA)
+- [Official installation guide](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/)
 
 ```bash
 $ wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | apt-key add -
@@ -77,7 +77,7 @@ $ python3
 '3.10.1'
 ```
 
-Potential issue if documents creation doesn’t work or this error: `Data directory /data/db not found., terminating` ([source](https://intranet.alxswe.com/rltoken/as8vd5VBnj4VDz5EINszMg) and [source](https://intranet.alxswe.com/rltoken/9Df5v1NcWFFCn_sRNgsJUg))
+Potential issue if documents creation doesn’t work or this error: `Data directory /data/db not found., terminating` ([source](https://bryantson.medium.com/fixing-data-db-not-found-error-in-macos-x-when-starting-mongodb-d7b82abb2479) and [source](https://stackoverflow.com/questions/37702957/mongodb-data-db-not-found))
 
 ```bash
 $ sudo mkdir -p /data/db
