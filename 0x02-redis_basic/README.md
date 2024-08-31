@@ -3,10 +3,10 @@
 # Resources
 
 **Read or watch:**
-- [Redis Crash Course Tutorial](https://intranet.alxswe.com/rltoken/hJVo3XwMMFFoApyX8zPXvA)
-- [Redis commands](https://intranet.alxswe.com/rltoken/oauvbRmxM12SxvimzqhrOg)
-- [Redis python client](https://intranet.alxswe.com/rltoken/imfgFhAZPlg7YMZ_tHvFZw)
-- [How to Use Redis With Python](https://intranet.alxswe.com/rltoken/7SluvFvgckwVgsvrfOf1CQ)
+- [Redis Crash Course Tutorial](https://www.youtube.com/watch?v=Hbt56gFj998)
+- [Redis commands](https://redis.io/docs/latest/commands/)
+- [Redis python client](https://redis-py.readthedocs.io/en/stable/)
+- [How to Use Redis With Python](https://realpython.com/python-redis/)
 
 ## Learning Objectives
 - Learn how to use redis for basic operations
@@ -122,7 +122,7 @@ Create and return function that increments the count for that key every time the
 
 Remember that the first argument of the wrapped function will be `self` which is the instance itself, which lets you access the Redis instance.
 
-Protip: when defining a decorator it is useful to use `functool.wraps` to conserve the original function’s name, docstring, etc. Make sure you use it as described [here](https://intranet.alxswe.com/rltoken/eRjLY2hVLrkDcNkcDJDK3g).
+Protip: when defining a decorator it is useful to use `functool.wraps` to conserve the original function’s name, docstring, etc. Make sure you use it as described [here](https://docs.python.org/3.7/library/functools.html#functools.wraps).
 
 Decorate `Cache.store` with `count_calls`.
 
