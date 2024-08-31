@@ -694,7 +694,7 @@ Write a SQL script that creates an index `idx_name_first_score` on the table nam
 
 **Requirements:**
 
-- Import this table dump: [names.sql.zip](dumps/names.sql.tar.xz)
+- Import this table dump: [names.sql.zip](dumps/names.sql.tar.xz) OR Windows: [names.sql.7z](dumps/names.sql.7z)
 - Only the first letter of name AND score must be indexed
 
 ```bash
